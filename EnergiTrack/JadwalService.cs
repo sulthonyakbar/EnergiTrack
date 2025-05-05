@@ -24,7 +24,27 @@ namespace EnergiTrack
             daftarJadwal.Add(j);
             Console.WriteLine($"Jadwal '{nama}' ditambahkan untuk hari {hari} pukul {mulai}-{selesai} dengan status {j.Status}.");
         }
+        public static void EditJadwal(int id, string nama, string hari, TimeSpan mulai, TimeSpan selesai)
+        {
+            var jadwal = daftarJadwal.Find(j => j.Id == id);
+            if (jadwal == null)
+            {
+                Console.WriteLine("Jadwal tidak ditemukan.");
+                return;
+            }
 
+            if (string.IsNullOrWhiteSpace(nama) || mulai >= selesai)
+            {
+                Console.WriteLine("Input tidak valid.");
+                return;
+            }
+
+            jadwal.NamaPerangkat = nama;
+            jadwal.Hari = hari;
+            jadwal.JamMulai = mulai;
+            jadwal.JamSelesai = selesai;
+            Console.WriteLine($"Jadwal ID {id} telah diperbarui.");
+        }
         public static void TampilkanJadwal()
         {
             foreach (var j in daftarJadwal)
@@ -32,7 +52,6 @@ namespace EnergiTrack
                 Console.WriteLine($"ID: {j.Id} | Perangkat: {j.NamaPerangkat} | Hari: {j.Hari} | {j.JamMulai}-{j.JamSelesai} | Status: {j.Status}");
             }
         }
-
         public static void UbahStatus(int id, Aksi aksi)
         {
             var jadwal = daftarJadwal.Find(j => j.Id == id);

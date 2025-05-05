@@ -3,7 +3,6 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine(Console.ReadLine());
         JadwalManager.TambahJadwal("Kulkas", "Senin", new TimeSpan(06, 00, 00), new TimeSpan(12, 00, 00));
         JadwalManager.TambahJadwal("AC", "Selasa", new TimeSpan(18, 00, 00), new TimeSpan(23, 00, 00));
         JadwalManager.TampilkanJadwal();

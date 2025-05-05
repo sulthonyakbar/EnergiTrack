@@ -31,6 +31,9 @@ namespace EnergiTrack
 
         public Jadwal(int id, string namaPerangkat, string hari, TimeSpan mulai, TimeSpan selesai)
         {
+            if (string.IsNullOrWhiteSpace(namaPerangkat)) throw new ArgumentException("Nama perangkat tidak boleh kosong.");
+            if (mulai >= selesai) throw new ArgumentException("Jam mulai harus lebih awal dari jam selesai.");
+
             Id = id;
             NamaPerangkat = namaPerangkat;
             Hari = hari;
