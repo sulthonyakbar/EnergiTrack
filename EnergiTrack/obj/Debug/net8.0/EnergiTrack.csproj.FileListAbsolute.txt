@@ -1,0 +1,15 @@
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.exe
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.deps.json
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.runtimeconfig.json
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.dll
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.pdb
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.AssemblyInfoInputs.cache
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.AssemblyInfo.cs
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.csproj.CoreCompileInputs.cache
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.sourcelink.json
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.dll
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\refint\EnergiTrack.dll
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.pdb
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.genruntimeconfig.cache
+D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\ref\EnergiTrack.dll
