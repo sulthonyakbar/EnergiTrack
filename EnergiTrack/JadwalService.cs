@@ -9,6 +9,7 @@ namespace EnergiTrack
     public static class JadwalService
     {
         private static List<Jadwal> daftarJadwal = new();
+        private static int nextId = 1;
 
         private static Dictionary<(StatusJadwal, Aksi), StatusJadwal> transisi = new()
         {
@@ -19,7 +20,7 @@ namespace EnergiTrack
 
         public static void TambahJadwal(string nama, string hari, TimeSpan mulai, TimeSpan selesai)
         {
-            int id = daftarJadwal.Count + 1;
+            int id = nextId++;
             Jadwal j = new(id, nama, hari, mulai, selesai);
             daftarJadwal.Add(j);
             Console.WriteLine($"Jadwal '{nama}' ditambahkan untuk hari {hari} pukul {mulai}-{selesai} dengan status {j.Status}.");
