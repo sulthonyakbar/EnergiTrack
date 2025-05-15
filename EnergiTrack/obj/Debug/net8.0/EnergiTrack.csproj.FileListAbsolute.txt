@@ -1,0 +1,15 @@
+D:\Konstruksi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.exe
+D:\Konstruksi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.deps.json
+D:\Konstruksi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.runtimeconfig.json
+D:\Konstruksi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.dll
+D:\Konstruksi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.pdb
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.AssemblyInfoInputs.cache
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.AssemblyInfo.cs
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.csproj.CoreCompileInputs.cache
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.sourcelink.json
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.dll
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\refint\EnergiTrack.dll
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.pdb
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.genruntimeconfig.cache
+D:\Konstruksi\EnergiTrack\EnergiTrack\obj\Debug\net8.0\ref\EnergiTrack.dll
