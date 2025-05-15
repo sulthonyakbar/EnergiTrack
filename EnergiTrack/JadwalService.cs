@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnergiTrack
 {
-    public static class JadwalManager
+    public static class JadwalService
     {
         private static List<Jadwal> daftarJadwal = new();
 
