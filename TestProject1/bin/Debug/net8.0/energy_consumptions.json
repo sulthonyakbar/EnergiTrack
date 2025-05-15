@@ -1,0 +1,5007 @@
+[
+  {
+    "DeviceName": "Lampu",
+    "Consumption": 100.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device0",
+    "Consumption": 0.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device1",
+    "Consumption": 0.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device2",
+    "Consumption": 1.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device3",
+    "Consumption": 1.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device4",
+    "Consumption": 2.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device5",
+    "Consumption": 2.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device6",
+    "Consumption": 3.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device7",
+    "Consumption": 3.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device8",
+    "Consumption": 4.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device9",
+    "Consumption": 4.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device10",
+    "Consumption": 5.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device11",
+    "Consumption": 5.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device12",
+    "Consumption": 6.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device13",
+    "Consumption": 6.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device14",
+    "Consumption": 7.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device15",
+    "Consumption": 7.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device16",
+    "Consumption": 8.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device17",
+    "Consumption": 8.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device18",
+    "Consumption": 9.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device19",
+    "Consumption": 9.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device20",
+    "Consumption": 10.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device21",
+    "Consumption": 10.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device22",
+    "Consumption": 11.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device23",
+    "Consumption": 11.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device24",
+    "Consumption": 12.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device25",
+    "Consumption": 12.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device26",
+    "Consumption": 13.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device27",
+    "Consumption": 13.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device28",
+    "Consumption": 14.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device29",
+    "Consumption": 14.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device30",
+    "Consumption": 15.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device31",
+    "Consumption": 15.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device32",
+    "Consumption": 16.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device33",
+    "Consumption": 16.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device34",
+    "Consumption": 17.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device35",
+    "Consumption": 17.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device36",
+    "Consumption": 18.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device37",
+    "Consumption": 18.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device38",
+    "Consumption": 19.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device39",
+    "Consumption": 19.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device40",
+    "Consumption": 20.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device41",
+    "Consumption": 20.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device42",
+    "Consumption": 21.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device43",
+    "Consumption": 21.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device44",
+    "Consumption": 22.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device45",
+    "Consumption": 22.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device46",
+    "Consumption": 23.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device47",
+    "Consumption": 23.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device48",
+    "Consumption": 24.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device49",
+    "Consumption": 24.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device50",
+    "Consumption": 25.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device51",
+    "Consumption": 25.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device52",
+    "Consumption": 26.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device53",
+    "Consumption": 26.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device54",
+    "Consumption": 27.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device55",
+    "Consumption": 27.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device56",
+    "Consumption": 28.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device57",
+    "Consumption": 28.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device58",
+    "Consumption": 29.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device59",
+    "Consumption": 29.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device60",
+    "Consumption": 30.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device61",
+    "Consumption": 30.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device62",
+    "Consumption": 31.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device63",
+    "Consumption": 31.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device64",
+    "Consumption": 32.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device65",
+    "Consumption": 32.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device66",
+    "Consumption": 33.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device67",
+    "Consumption": 33.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device68",
+    "Consumption": 34.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device69",
+    "Consumption": 34.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device70",
+    "Consumption": 35.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device71",
+    "Consumption": 35.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device72",
+    "Consumption": 36.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device73",
+    "Consumption": 36.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device74",
+    "Consumption": 37.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device75",
+    "Consumption": 37.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device76",
+    "Consumption": 38.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device77",
+    "Consumption": 38.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device78",
+    "Consumption": 39.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device79",
+    "Consumption": 39.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device80",
+    "Consumption": 40.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device81",
+    "Consumption": 40.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device82",
+    "Consumption": 41.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device83",
+    "Consumption": 41.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device84",
+    "Consumption": 42.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device85",
+    "Consumption": 42.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device86",
+    "Consumption": 43.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device87",
+    "Consumption": 43.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device88",
+    "Consumption": 44.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device89",
+    "Consumption": 44.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device90",
+    "Consumption": 45.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device91",
+    "Consumption": 45.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device92",
+    "Consumption": 46.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device93",
+    "Consumption": 46.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device94",
+    "Consumption": 47.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device95",
+    "Consumption": 47.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device96",
+    "Consumption": 48.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device97",
+    "Consumption": 48.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device98",
+    "Consumption": 49.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device99",
+    "Consumption": 49.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device100",
+    "Consumption": 50.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device101",
+    "Consumption": 50.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device102",
+    "Consumption": 51.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device103",
+    "Consumption": 51.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device104",
+    "Consumption": 52.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device105",
+    "Consumption": 52.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device106",
+    "Consumption": 53.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device107",
+    "Consumption": 53.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device108",
+    "Consumption": 54.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device109",
+    "Consumption": 54.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device110",
+    "Consumption": 55.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device111",
+    "Consumption": 55.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device112",
+    "Consumption": 56.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device113",
+    "Consumption": 56.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device114",
+    "Consumption": 57.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device115",
+    "Consumption": 57.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device116",
+    "Consumption": 58.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device117",
+    "Consumption": 58.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device118",
+    "Consumption": 59.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device119",
+    "Consumption": 59.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device120",
+    "Consumption": 60.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device121",
+    "Consumption": 60.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device122",
+    "Consumption": 61.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device123",
+    "Consumption": 61.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device124",
+    "Consumption": 62.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device125",
+    "Consumption": 62.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device126",
+    "Consumption": 63.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device127",
+    "Consumption": 63.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device128",
+    "Consumption": 64.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device129",
+    "Consumption": 64.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device130",
+    "Consumption": 65.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device131",
+    "Consumption": 65.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device132",
+    "Consumption": 66.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device133",
+    "Consumption": 66.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device134",
+    "Consumption": 67.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device135",
+    "Consumption": 67.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device136",
+    "Consumption": 68.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device137",
+    "Consumption": 68.5,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device138",
+    "Consumption": 69.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "Device139",
+    "Consumption": 69.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device140",
+    "Consumption": 70.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device141",
+    "Consumption": 70.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device142",
+    "Consumption": 71.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device143",
+    "Consumption": 71.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device144",
+    "Consumption": 72.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device145",
+    "Consumption": 72.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device146",
+    "Consumption": 73.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device147",
+    "Consumption": 73.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device148",
+    "Consumption": 74.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device149",
+    "Consumption": 74.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device150",
+    "Consumption": 75.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device151",
+    "Consumption": 75.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device152",
+    "Consumption": 76.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device153",
+    "Consumption": 76.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device154",
+    "Consumption": 77.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device155",
+    "Consumption": 77.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device156",
+    "Consumption": 78.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device157",
+    "Consumption": 78.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device158",
+    "Consumption": 79.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device159",
+    "Consumption": 79.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device160",
+    "Consumption": 80.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device161",
+    "Consumption": 80.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device162",
+    "Consumption": 81.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device163",
+    "Consumption": 81.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device164",
+    "Consumption": 82.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device165",
+    "Consumption": 82.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device166",
+    "Consumption": 83.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device167",
+    "Consumption": 83.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device168",
+    "Consumption": 84.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device169",
+    "Consumption": 84.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device170",
+    "Consumption": 85.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device171",
+    "Consumption": 85.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device172",
+    "Consumption": 86.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device173",
+    "Consumption": 86.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device174",
+    "Consumption": 87.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device175",
+    "Consumption": 87.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device176",
+    "Consumption": 88.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device177",
+    "Consumption": 88.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device178",
+    "Consumption": 89.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device179",
+    "Consumption": 89.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device180",
+    "Consumption": 90.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device181",
+    "Consumption": 90.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device182",
+    "Consumption": 91.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device183",
+    "Consumption": 91.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device184",
+    "Consumption": 92.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device185",
+    "Consumption": 92.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device186",
+    "Consumption": 93.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device187",
+    "Consumption": 93.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device188",
+    "Consumption": 94.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device189",
+    "Consumption": 94.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device190",
+    "Consumption": 95.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device191",
+    "Consumption": 95.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device192",
+    "Consumption": 96.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device193",
+    "Consumption": 96.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device194",
+    "Consumption": 97.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device195",
+    "Consumption": 97.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device196",
+    "Consumption": 98.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device197",
+    "Consumption": 98.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device198",
+    "Consumption": 99.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device199",
+    "Consumption": 99.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device200",
+    "Consumption": 100.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device201",
+    "Consumption": 100.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device202",
+    "Consumption": 101.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device203",
+    "Consumption": 101.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device204",
+    "Consumption": 102.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device205",
+    "Consumption": 102.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device206",
+    "Consumption": 103.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device207",
+    "Consumption": 103.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device208",
+    "Consumption": 104.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device209",
+    "Consumption": 104.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device210",
+    "Consumption": 105.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device211",
+    "Consumption": 105.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device212",
+    "Consumption": 106.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device213",
+    "Consumption": 106.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device214",
+    "Consumption": 107.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device215",
+    "Consumption": 107.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device216",
+    "Consumption": 108.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device217",
+    "Consumption": 108.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device218",
+    "Consumption": 109.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device219",
+    "Consumption": 109.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device220",
+    "Consumption": 110.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device221",
+    "Consumption": 110.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device222",
+    "Consumption": 111.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device223",
+    "Consumption": 111.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device224",
+    "Consumption": 112.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device225",
+    "Consumption": 112.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device226",
+    "Consumption": 113.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device227",
+    "Consumption": 113.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device228",
+    "Consumption": 114.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device229",
+    "Consumption": 114.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device230",
+    "Consumption": 115.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device231",
+    "Consumption": 115.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device232",
+    "Consumption": 116.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device233",
+    "Consumption": 116.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device234",
+    "Consumption": 117.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device235",
+    "Consumption": 117.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device236",
+    "Consumption": 118.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device237",
+    "Consumption": 118.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device238",
+    "Consumption": 119.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device239",
+    "Consumption": 119.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device240",
+    "Consumption": 120.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device241",
+    "Consumption": 120.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device242",
+    "Consumption": 121.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device243",
+    "Consumption": 121.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device244",
+    "Consumption": 122.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device245",
+    "Consumption": 122.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device246",
+    "Consumption": 123.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device247",
+    "Consumption": 123.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device248",
+    "Consumption": 124.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device249",
+    "Consumption": 124.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device250",
+    "Consumption": 125.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device251",
+    "Consumption": 125.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device252",
+    "Consumption": 126.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device253",
+    "Consumption": 126.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device254",
+    "Consumption": 127.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device255",
+    "Consumption": 127.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device256",
+    "Consumption": 128.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device257",
+    "Consumption": 128.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device258",
+    "Consumption": 129.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device259",
+    "Consumption": 129.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device260",
+    "Consumption": 130.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device261",
+    "Consumption": 130.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device262",
+    "Consumption": 131.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device263",
+    "Consumption": 131.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device264",
+    "Consumption": 132.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device265",
+    "Consumption": 132.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device266",
+    "Consumption": 133.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device267",
+    "Consumption": 133.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device268",
+    "Consumption": 134.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device269",
+    "Consumption": 134.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device270",
+    "Consumption": 135.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device271",
+    "Consumption": 135.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device272",
+    "Consumption": 136.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device273",
+    "Consumption": 136.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device274",
+    "Consumption": 137.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device275",
+    "Consumption": 137.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device276",
+    "Consumption": 138.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device277",
+    "Consumption": 138.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device278",
+    "Consumption": 139.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device279",
+    "Consumption": 139.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device280",
+    "Consumption": 140.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device281",
+    "Consumption": 140.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device282",
+    "Consumption": 141.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device283",
+    "Consumption": 141.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device284",
+    "Consumption": 142.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device285",
+    "Consumption": 142.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device286",
+    "Consumption": 143.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device287",
+    "Consumption": 143.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device288",
+    "Consumption": 144.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device289",
+    "Consumption": 144.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device290",
+    "Consumption": 145.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device291",
+    "Consumption": 145.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device292",
+    "Consumption": 146.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device293",
+    "Consumption": 146.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device294",
+    "Consumption": 147.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device295",
+    "Consumption": 147.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device296",
+    "Consumption": 148.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device297",
+    "Consumption": 148.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device298",
+    "Consumption": 149.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device299",
+    "Consumption": 149.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device300",
+    "Consumption": 150.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device301",
+    "Consumption": 150.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device302",
+    "Consumption": 151.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device303",
+    "Consumption": 151.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device304",
+    "Consumption": 152.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device305",
+    "Consumption": 152.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device306",
+    "Consumption": 153.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device307",
+    "Consumption": 153.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device308",
+    "Consumption": 154.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device309",
+    "Consumption": 154.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device310",
+    "Consumption": 155.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device311",
+    "Consumption": 155.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device312",
+    "Consumption": 156.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device313",
+    "Consumption": 156.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device314",
+    "Consumption": 157.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device315",
+    "Consumption": 157.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device316",
+    "Consumption": 158.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device317",
+    "Consumption": 158.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device318",
+    "Consumption": 159.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device319",
+    "Consumption": 159.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device320",
+    "Consumption": 160.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device321",
+    "Consumption": 160.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device322",
+    "Consumption": 161.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device323",
+    "Consumption": 161.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device324",
+    "Consumption": 162.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device325",
+    "Consumption": 162.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device326",
+    "Consumption": 163.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device327",
+    "Consumption": 163.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device328",
+    "Consumption": 164.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device329",
+    "Consumption": 164.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device330",
+    "Consumption": 165.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device331",
+    "Consumption": 165.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device332",
+    "Consumption": 166.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device333",
+    "Consumption": 166.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device334",
+    "Consumption": 167.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device335",
+    "Consumption": 167.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device336",
+    "Consumption": 168.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device337",
+    "Consumption": 168.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device338",
+    "Consumption": 169.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device339",
+    "Consumption": 169.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device340",
+    "Consumption": 170.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device341",
+    "Consumption": 170.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device342",
+    "Consumption": 171.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device343",
+    "Consumption": 171.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device344",
+    "Consumption": 172.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device345",
+    "Consumption": 172.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device346",
+    "Consumption": 173.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device347",
+    "Consumption": 173.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device348",
+    "Consumption": 174.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device349",
+    "Consumption": 174.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device350",
+    "Consumption": 175.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device351",
+    "Consumption": 175.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device352",
+    "Consumption": 176.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device353",
+    "Consumption": 176.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device354",
+    "Consumption": 177.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device355",
+    "Consumption": 177.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device356",
+    "Consumption": 178.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device357",
+    "Consumption": 178.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device358",
+    "Consumption": 179.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device359",
+    "Consumption": 179.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device360",
+    "Consumption": 180.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device361",
+    "Consumption": 180.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device362",
+    "Consumption": 181.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device363",
+    "Consumption": 181.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device364",
+    "Consumption": 182.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device365",
+    "Consumption": 182.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device366",
+    "Consumption": 183.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device367",
+    "Consumption": 183.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device368",
+    "Consumption": 184.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device369",
+    "Consumption": 184.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device370",
+    "Consumption": 185.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device371",
+    "Consumption": 185.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device372",
+    "Consumption": 186.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device373",
+    "Consumption": 186.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device374",
+    "Consumption": 187.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device375",
+    "Consumption": 187.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device376",
+    "Consumption": 188.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device377",
+    "Consumption": 188.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device378",
+    "Consumption": 189.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device379",
+    "Consumption": 189.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device380",
+    "Consumption": 190.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device381",
+    "Consumption": 190.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device382",
+    "Consumption": 191.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device383",
+    "Consumption": 191.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device384",
+    "Consumption": 192.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device385",
+    "Consumption": 192.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device386",
+    "Consumption": 193.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device387",
+    "Consumption": 193.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device388",
+    "Consumption": 194.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device389",
+    "Consumption": 194.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device390",
+    "Consumption": 195.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device391",
+    "Consumption": 195.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device392",
+    "Consumption": 196.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device393",
+    "Consumption": 196.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device394",
+    "Consumption": 197.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device395",
+    "Consumption": 197.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device396",
+    "Consumption": 198.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device397",
+    "Consumption": 198.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device398",
+    "Consumption": 199.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device399",
+    "Consumption": 199.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device400",
+    "Consumption": 200.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device401",
+    "Consumption": 200.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device402",
+    "Consumption": 201.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device403",
+    "Consumption": 201.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device404",
+    "Consumption": 202.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device405",
+    "Consumption": 202.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device406",
+    "Consumption": 203.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device407",
+    "Consumption": 203.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device408",
+    "Consumption": 204.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device409",
+    "Consumption": 204.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device410",
+    "Consumption": 205.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device411",
+    "Consumption": 205.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device412",
+    "Consumption": 206.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device413",
+    "Consumption": 206.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device414",
+    "Consumption": 207.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device415",
+    "Consumption": 207.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device416",
+    "Consumption": 208.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device417",
+    "Consumption": 208.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device418",
+    "Consumption": 209.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device419",
+    "Consumption": 209.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device420",
+    "Consumption": 210.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device421",
+    "Consumption": 210.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device422",
+    "Consumption": 211.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device423",
+    "Consumption": 211.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device424",
+    "Consumption": 212.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device425",
+    "Consumption": 212.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device426",
+    "Consumption": 213.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device427",
+    "Consumption": 213.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device428",
+    "Consumption": 214.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device429",
+    "Consumption": 214.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device430",
+    "Consumption": 215.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device431",
+    "Consumption": 215.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device432",
+    "Consumption": 216.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device433",
+    "Consumption": 216.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device434",
+    "Consumption": 217.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device435",
+    "Consumption": 217.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device436",
+    "Consumption": 218.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device437",
+    "Consumption": 218.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device438",
+    "Consumption": 219.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device439",
+    "Consumption": 219.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device440",
+    "Consumption": 220.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device441",
+    "Consumption": 220.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device442",
+    "Consumption": 221.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device443",
+    "Consumption": 221.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device444",
+    "Consumption": 222.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device445",
+    "Consumption": 222.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device446",
+    "Consumption": 223.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device447",
+    "Consumption": 223.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device448",
+    "Consumption": 224.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device449",
+    "Consumption": 224.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device450",
+    "Consumption": 225.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device451",
+    "Consumption": 225.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device452",
+    "Consumption": 226.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device453",
+    "Consumption": 226.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device454",
+    "Consumption": 227.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device455",
+    "Consumption": 227.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device456",
+    "Consumption": 228.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device457",
+    "Consumption": 228.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device458",
+    "Consumption": 229.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device459",
+    "Consumption": 229.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device460",
+    "Consumption": 230.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device461",
+    "Consumption": 230.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device462",
+    "Consumption": 231.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device463",
+    "Consumption": 231.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device464",
+    "Consumption": 232.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device465",
+    "Consumption": 232.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device466",
+    "Consumption": 233.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device467",
+    "Consumption": 233.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device468",
+    "Consumption": 234.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device469",
+    "Consumption": 234.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device470",
+    "Consumption": 235.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device471",
+    "Consumption": 235.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device472",
+    "Consumption": 236.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device473",
+    "Consumption": 236.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device474",
+    "Consumption": 237.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device475",
+    "Consumption": 237.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device476",
+    "Consumption": 238.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device477",
+    "Consumption": 238.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device478",
+    "Consumption": 239.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device479",
+    "Consumption": 239.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device480",
+    "Consumption": 240.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device481",
+    "Consumption": 240.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device482",
+    "Consumption": 241.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device483",
+    "Consumption": 241.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device484",
+    "Consumption": 242.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device485",
+    "Consumption": 242.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device486",
+    "Consumption": 243.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device487",
+    "Consumption": 243.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device488",
+    "Consumption": 244.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device489",
+    "Consumption": 244.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device490",
+    "Consumption": 245.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device491",
+    "Consumption": 245.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device492",
+    "Consumption": 246.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device493",
+    "Consumption": 246.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device494",
+    "Consumption": 247.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device495",
+    "Consumption": 247.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device496",
+    "Consumption": 248.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device497",
+    "Consumption": 248.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device498",
+    "Consumption": 249.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device499",
+    "Consumption": 249.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device500",
+    "Consumption": 250.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device501",
+    "Consumption": 250.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device502",
+    "Consumption": 251.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device503",
+    "Consumption": 251.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device504",
+    "Consumption": 252.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device505",
+    "Consumption": 252.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device506",
+    "Consumption": 253.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device507",
+    "Consumption": 253.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device508",
+    "Consumption": 254.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device509",
+    "Consumption": 254.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device510",
+    "Consumption": 255.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device511",
+    "Consumption": 255.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device512",
+    "Consumption": 256.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device513",
+    "Consumption": 256.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device514",
+    "Consumption": 257.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device515",
+    "Consumption": 257.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device516",
+    "Consumption": 258.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device517",
+    "Consumption": 258.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device518",
+    "Consumption": 259.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device519",
+    "Consumption": 259.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device520",
+    "Consumption": 260.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device521",
+    "Consumption": 260.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device522",
+    "Consumption": 261.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device523",
+    "Consumption": 261.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device524",
+    "Consumption": 262.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device525",
+    "Consumption": 262.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device526",
+    "Consumption": 263.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device527",
+    "Consumption": 263.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device528",
+    "Consumption": 264.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device529",
+    "Consumption": 264.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device530",
+    "Consumption": 265.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device531",
+    "Consumption": 265.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device532",
+    "Consumption": 266.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device533",
+    "Consumption": 266.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device534",
+    "Consumption": 267.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device535",
+    "Consumption": 267.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device536",
+    "Consumption": 268.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device537",
+    "Consumption": 268.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device538",
+    "Consumption": 269.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device539",
+    "Consumption": 269.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device540",
+    "Consumption": 270.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device541",
+    "Consumption": 270.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device542",
+    "Consumption": 271.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device543",
+    "Consumption": 271.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device544",
+    "Consumption": 272.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device545",
+    "Consumption": 272.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device546",
+    "Consumption": 273.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device547",
+    "Consumption": 273.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device548",
+    "Consumption": 274.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device549",
+    "Consumption": 274.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device550",
+    "Consumption": 275.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device551",
+    "Consumption": 275.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device552",
+    "Consumption": 276.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device553",
+    "Consumption": 276.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device554",
+    "Consumption": 277.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device555",
+    "Consumption": 277.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device556",
+    "Consumption": 278.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device557",
+    "Consumption": 278.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device558",
+    "Consumption": 279.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device559",
+    "Consumption": 279.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device560",
+    "Consumption": 280.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device561",
+    "Consumption": 280.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device562",
+    "Consumption": 281.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device563",
+    "Consumption": 281.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device564",
+    "Consumption": 282.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device565",
+    "Consumption": 282.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device566",
+    "Consumption": 283.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device567",
+    "Consumption": 283.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device568",
+    "Consumption": 284.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device569",
+    "Consumption": 284.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device570",
+    "Consumption": 285.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device571",
+    "Consumption": 285.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device572",
+    "Consumption": 286.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device573",
+    "Consumption": 286.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device574",
+    "Consumption": 287.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device575",
+    "Consumption": 287.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device576",
+    "Consumption": 288.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device577",
+    "Consumption": 288.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device578",
+    "Consumption": 289.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device579",
+    "Consumption": 289.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device580",
+    "Consumption": 290.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device581",
+    "Consumption": 290.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device582",
+    "Consumption": 291.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device583",
+    "Consumption": 291.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device584",
+    "Consumption": 292.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device585",
+    "Consumption": 292.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device586",
+    "Consumption": 293.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device587",
+    "Consumption": 293.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device588",
+    "Consumption": 294.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device589",
+    "Consumption": 294.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device590",
+    "Consumption": 295.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device591",
+    "Consumption": 295.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device592",
+    "Consumption": 296.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device593",
+    "Consumption": 296.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device594",
+    "Consumption": 297.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device595",
+    "Consumption": 297.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device596",
+    "Consumption": 298.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device597",
+    "Consumption": 298.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device598",
+    "Consumption": 299.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device599",
+    "Consumption": 299.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device600",
+    "Consumption": 300.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device601",
+    "Consumption": 300.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device602",
+    "Consumption": 301.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device603",
+    "Consumption": 301.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device604",
+    "Consumption": 302.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device605",
+    "Consumption": 302.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device606",
+    "Consumption": 303.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device607",
+    "Consumption": 303.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device608",
+    "Consumption": 304.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device609",
+    "Consumption": 304.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device610",
+    "Consumption": 305.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device611",
+    "Consumption": 305.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device612",
+    "Consumption": 306.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device613",
+    "Consumption": 306.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device614",
+    "Consumption": 307.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device615",
+    "Consumption": 307.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device616",
+    "Consumption": 308.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device617",
+    "Consumption": 308.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device618",
+    "Consumption": 309.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device619",
+    "Consumption": 309.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device620",
+    "Consumption": 310.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device621",
+    "Consumption": 310.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device622",
+    "Consumption": 311.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device623",
+    "Consumption": 311.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device624",
+    "Consumption": 312.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device625",
+    "Consumption": 312.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device626",
+    "Consumption": 313.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device627",
+    "Consumption": 313.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device628",
+    "Consumption": 314.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device629",
+    "Consumption": 314.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device630",
+    "Consumption": 315.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device631",
+    "Consumption": 315.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device632",
+    "Consumption": 316.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device633",
+    "Consumption": 316.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device634",
+    "Consumption": 317.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device635",
+    "Consumption": 317.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device636",
+    "Consumption": 318.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device637",
+    "Consumption": 318.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device638",
+    "Consumption": 319.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device639",
+    "Consumption": 319.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device640",
+    "Consumption": 320.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device641",
+    "Consumption": 320.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device642",
+    "Consumption": 321.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device643",
+    "Consumption": 321.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device644",
+    "Consumption": 322.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device645",
+    "Consumption": 322.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device646",
+    "Consumption": 323.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device647",
+    "Consumption": 323.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device648",
+    "Consumption": 324.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device649",
+    "Consumption": 324.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device650",
+    "Consumption": 325.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device651",
+    "Consumption": 325.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device652",
+    "Consumption": 326.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device653",
+    "Consumption": 326.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device654",
+    "Consumption": 327.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device655",
+    "Consumption": 327.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device656",
+    "Consumption": 328.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device657",
+    "Consumption": 328.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device658",
+    "Consumption": 329.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device659",
+    "Consumption": 329.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device660",
+    "Consumption": 330.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device661",
+    "Consumption": 330.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device662",
+    "Consumption": 331.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device663",
+    "Consumption": 331.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device664",
+    "Consumption": 332.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device665",
+    "Consumption": 332.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device666",
+    "Consumption": 333.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device667",
+    "Consumption": 333.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device668",
+    "Consumption": 334.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device669",
+    "Consumption": 334.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device670",
+    "Consumption": 335.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device671",
+    "Consumption": 335.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device672",
+    "Consumption": 336.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device673",
+    "Consumption": 336.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device674",
+    "Consumption": 337.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device675",
+    "Consumption": 337.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device676",
+    "Consumption": 338.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device677",
+    "Consumption": 338.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device678",
+    "Consumption": 339.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device679",
+    "Consumption": 339.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device680",
+    "Consumption": 340.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device681",
+    "Consumption": 340.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device682",
+    "Consumption": 341.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device683",
+    "Consumption": 341.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device684",
+    "Consumption": 342.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device685",
+    "Consumption": 342.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device686",
+    "Consumption": 343.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device687",
+    "Consumption": 343.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device688",
+    "Consumption": 344.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device689",
+    "Consumption": 344.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device690",
+    "Consumption": 345.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device691",
+    "Consumption": 345.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device692",
+    "Consumption": 346.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device693",
+    "Consumption": 346.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device694",
+    "Consumption": 347.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device695",
+    "Consumption": 347.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device696",
+    "Consumption": 348.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device697",
+    "Consumption": 348.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device698",
+    "Consumption": 349.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device699",
+    "Consumption": 349.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device700",
+    "Consumption": 350.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device701",
+    "Consumption": 350.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device702",
+    "Consumption": 351.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device703",
+    "Consumption": 351.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device704",
+    "Consumption": 352.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device705",
+    "Consumption": 352.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device706",
+    "Consumption": 353.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device707",
+    "Consumption": 353.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device708",
+    "Consumption": 354.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device709",
+    "Consumption": 354.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device710",
+    "Consumption": 355.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device711",
+    "Consumption": 355.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device712",
+    "Consumption": 356.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device713",
+    "Consumption": 356.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device714",
+    "Consumption": 357.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device715",
+    "Consumption": 357.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device716",
+    "Consumption": 358.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device717",
+    "Consumption": 358.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device718",
+    "Consumption": 359.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device719",
+    "Consumption": 359.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device720",
+    "Consumption": 360.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device721",
+    "Consumption": 360.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device722",
+    "Consumption": 361.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device723",
+    "Consumption": 361.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device724",
+    "Consumption": 362.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device725",
+    "Consumption": 362.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device726",
+    "Consumption": 363.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device727",
+    "Consumption": 363.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device728",
+    "Consumption": 364.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device729",
+    "Consumption": 364.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device730",
+    "Consumption": 365.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device731",
+    "Consumption": 365.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device732",
+    "Consumption": 366.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device733",
+    "Consumption": 366.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device734",
+    "Consumption": 367.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device735",
+    "Consumption": 367.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device736",
+    "Consumption": 368.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device737",
+    "Consumption": 368.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device738",
+    "Consumption": 369.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device739",
+    "Consumption": 369.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device740",
+    "Consumption": 370.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device741",
+    "Consumption": 370.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device742",
+    "Consumption": 371.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device743",
+    "Consumption": 371.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device744",
+    "Consumption": 372.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device745",
+    "Consumption": 372.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device746",
+    "Consumption": 373.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device747",
+    "Consumption": 373.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device748",
+    "Consumption": 374.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device749",
+    "Consumption": 374.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device750",
+    "Consumption": 375.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device751",
+    "Consumption": 375.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device752",
+    "Consumption": 376.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device753",
+    "Consumption": 376.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device754",
+    "Consumption": 377.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device755",
+    "Consumption": 377.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device756",
+    "Consumption": 378.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device757",
+    "Consumption": 378.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device758",
+    "Consumption": 379.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device759",
+    "Consumption": 379.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device760",
+    "Consumption": 380.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device761",
+    "Consumption": 380.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device762",
+    "Consumption": 381.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device763",
+    "Consumption": 381.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device764",
+    "Consumption": 382.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device765",
+    "Consumption": 382.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device766",
+    "Consumption": 383.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device767",
+    "Consumption": 383.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device768",
+    "Consumption": 384.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device769",
+    "Consumption": 384.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device770",
+    "Consumption": 385.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device771",
+    "Consumption": 385.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device772",
+    "Consumption": 386.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device773",
+    "Consumption": 386.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device774",
+    "Consumption": 387.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device775",
+    "Consumption": 387.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device776",
+    "Consumption": 388.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device777",
+    "Consumption": 388.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device778",
+    "Consumption": 389.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device779",
+    "Consumption": 389.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device780",
+    "Consumption": 390.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device781",
+    "Consumption": 390.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device782",
+    "Consumption": 391.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device783",
+    "Consumption": 391.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device784",
+    "Consumption": 392.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device785",
+    "Consumption": 392.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device786",
+    "Consumption": 393.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device787",
+    "Consumption": 393.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device788",
+    "Consumption": 394.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device789",
+    "Consumption": 394.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device790",
+    "Consumption": 395.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device791",
+    "Consumption": 395.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device792",
+    "Consumption": 396.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device793",
+    "Consumption": 396.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device794",
+    "Consumption": 397.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device795",
+    "Consumption": 397.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device796",
+    "Consumption": 398.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device797",
+    "Consumption": 398.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device798",
+    "Consumption": 399.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device799",
+    "Consumption": 399.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device800",
+    "Consumption": 400.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device801",
+    "Consumption": 400.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device802",
+    "Consumption": 401.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device803",
+    "Consumption": 401.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device804",
+    "Consumption": 402.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device805",
+    "Consumption": 402.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device806",
+    "Consumption": 403.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device807",
+    "Consumption": 403.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device808",
+    "Consumption": 404.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device809",
+    "Consumption": 404.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device810",
+    "Consumption": 405.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device811",
+    "Consumption": 405.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device812",
+    "Consumption": 406.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device813",
+    "Consumption": 406.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device814",
+    "Consumption": 407.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device815",
+    "Consumption": 407.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device816",
+    "Consumption": 408.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device817",
+    "Consumption": 408.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device818",
+    "Consumption": 409.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device819",
+    "Consumption": 409.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device820",
+    "Consumption": 410.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device821",
+    "Consumption": 410.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device822",
+    "Consumption": 411.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device823",
+    "Consumption": 411.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device824",
+    "Consumption": 412.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device825",
+    "Consumption": 412.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device826",
+    "Consumption": 413.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device827",
+    "Consumption": 413.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device828",
+    "Consumption": 414.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device829",
+    "Consumption": 414.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device830",
+    "Consumption": 415.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device831",
+    "Consumption": 415.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device832",
+    "Consumption": 416.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device833",
+    "Consumption": 416.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device834",
+    "Consumption": 417.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device835",
+    "Consumption": 417.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device836",
+    "Consumption": 418.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device837",
+    "Consumption": 418.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device838",
+    "Consumption": 419.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device839",
+    "Consumption": 419.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device840",
+    "Consumption": 420.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device841",
+    "Consumption": 420.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device842",
+    "Consumption": 421.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device843",
+    "Consumption": 421.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device844",
+    "Consumption": 422.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device845",
+    "Consumption": 422.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device846",
+    "Consumption": 423.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device847",
+    "Consumption": 423.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device848",
+    "Consumption": 424.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device849",
+    "Consumption": 424.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device850",
+    "Consumption": 425.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device851",
+    "Consumption": 425.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device852",
+    "Consumption": 426.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device853",
+    "Consumption": 426.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device854",
+    "Consumption": 427.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device855",
+    "Consumption": 427.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device856",
+    "Consumption": 428.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device857",
+    "Consumption": 428.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device858",
+    "Consumption": 429.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device859",
+    "Consumption": 429.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device860",
+    "Consumption": 430.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device861",
+    "Consumption": 430.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device862",
+    "Consumption": 431.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device863",
+    "Consumption": 431.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device864",
+    "Consumption": 432.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device865",
+    "Consumption": 432.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device866",
+    "Consumption": 433.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device867",
+    "Consumption": 433.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device868",
+    "Consumption": 434.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device869",
+    "Consumption": 434.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device870",
+    "Consumption": 435.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device871",
+    "Consumption": 435.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device872",
+    "Consumption": 436.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device873",
+    "Consumption": 436.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device874",
+    "Consumption": 437.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device875",
+    "Consumption": 437.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device876",
+    "Consumption": 438.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device877",
+    "Consumption": 438.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device878",
+    "Consumption": 439.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device879",
+    "Consumption": 439.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device880",
+    "Consumption": 440.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device881",
+    "Consumption": 440.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device882",
+    "Consumption": 441.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device883",
+    "Consumption": 441.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device884",
+    "Consumption": 442.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device885",
+    "Consumption": 442.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device886",
+    "Consumption": 443.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device887",
+    "Consumption": 443.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device888",
+    "Consumption": 444.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device889",
+    "Consumption": 444.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device890",
+    "Consumption": 445.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device891",
+    "Consumption": 445.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device892",
+    "Consumption": 446.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device893",
+    "Consumption": 446.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device894",
+    "Consumption": 447.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device895",
+    "Consumption": 447.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device896",
+    "Consumption": 448.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device897",
+    "Consumption": 448.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device898",
+    "Consumption": 449.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device899",
+    "Consumption": 449.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device900",
+    "Consumption": 450.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device901",
+    "Consumption": 450.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device902",
+    "Consumption": 451.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device903",
+    "Consumption": 451.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device904",
+    "Consumption": 452.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device905",
+    "Consumption": 452.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device906",
+    "Consumption": 453.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device907",
+    "Consumption": 453.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device908",
+    "Consumption": 454.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device909",
+    "Consumption": 454.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device910",
+    "Consumption": 455.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device911",
+    "Consumption": 455.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device912",
+    "Consumption": 456.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device913",
+    "Consumption": 456.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device914",
+    "Consumption": 457.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device915",
+    "Consumption": 457.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device916",
+    "Consumption": 458.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device917",
+    "Consumption": 458.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device918",
+    "Consumption": 459.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device919",
+    "Consumption": 459.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device920",
+    "Consumption": 460.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device921",
+    "Consumption": 460.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device922",
+    "Consumption": 461.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device923",
+    "Consumption": 461.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device924",
+    "Consumption": 462.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device925",
+    "Consumption": 462.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device926",
+    "Consumption": 463.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device927",
+    "Consumption": 463.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device928",
+    "Consumption": 464.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device929",
+    "Consumption": 464.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device930",
+    "Consumption": 465.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device931",
+    "Consumption": 465.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device932",
+    "Consumption": 466.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device933",
+    "Consumption": 466.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device934",
+    "Consumption": 467.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device935",
+    "Consumption": 467.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device936",
+    "Consumption": 468.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device937",
+    "Consumption": 468.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device938",
+    "Consumption": 469.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device939",
+    "Consumption": 469.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device940",
+    "Consumption": 470.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device941",
+    "Consumption": 470.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device942",
+    "Consumption": 471.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device943",
+    "Consumption": 471.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device944",
+    "Consumption": 472.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device945",
+    "Consumption": 472.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device946",
+    "Consumption": 473.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device947",
+    "Consumption": 473.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device948",
+    "Consumption": 474.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device949",
+    "Consumption": 474.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device950",
+    "Consumption": 475.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device951",
+    "Consumption": 475.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device952",
+    "Consumption": 476.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device953",
+    "Consumption": 476.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device954",
+    "Consumption": 477.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device955",
+    "Consumption": 477.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device956",
+    "Consumption": 478.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device957",
+    "Consumption": 478.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device958",
+    "Consumption": 479.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device959",
+    "Consumption": 479.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device960",
+    "Consumption": 480.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device961",
+    "Consumption": 480.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device962",
+    "Consumption": 481.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device963",
+    "Consumption": 481.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device964",
+    "Consumption": 482.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device965",
+    "Consumption": 482.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device966",
+    "Consumption": 483.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device967",
+    "Consumption": 483.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device968",
+    "Consumption": 484.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device969",
+    "Consumption": 484.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device970",
+    "Consumption": 485.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device971",
+    "Consumption": 485.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device972",
+    "Consumption": 486.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device973",
+    "Consumption": 486.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device974",
+    "Consumption": 487.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device975",
+    "Consumption": 487.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device976",
+    "Consumption": 488.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device977",
+    "Consumption": 488.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device978",
+    "Consumption": 489.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device979",
+    "Consumption": 489.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device980",
+    "Consumption": 490.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device981",
+    "Consumption": 490.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device982",
+    "Consumption": 491.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device983",
+    "Consumption": 491.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device984",
+    "Consumption": 492.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device985",
+    "Consumption": 492.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device986",
+    "Consumption": 493.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device987",
+    "Consumption": 493.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device988",
+    "Consumption": 494.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device989",
+    "Consumption": 494.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device990",
+    "Consumption": 495.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device991",
+    "Consumption": 495.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device992",
+    "Consumption": 496.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device993",
+    "Consumption": 496.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device994",
+    "Consumption": 497.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device995",
+    "Consumption": 497.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device996",
+    "Consumption": 498.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device997",
+    "Consumption": 498.5,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device998",
+    "Consumption": 499.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Device999",
+    "Consumption": 499.5,
+    "Status": "Boros"
+  }
+]

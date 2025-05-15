@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnergiTrack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76ebea4100dba181727b35a2f578688b6feff7f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnergiTrack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnergiTrack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
