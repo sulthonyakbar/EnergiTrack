@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EnergiTrack</id>
+    <version>1.0.0</version>
+    <authors>EnergiTrack</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="7b22b035efda4917a91d6949c02595329b4e94ae" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.runtimeconfig.json" target="lib\net8.0\EnergiTrack.runtimeconfig.json" />
+    <file src="D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.dll" target="lib\net8.0\EnergiTrack.dll" />
+  </files>
+</package>

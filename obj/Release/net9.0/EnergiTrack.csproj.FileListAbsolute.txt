@@ -1,0 +1,6 @@
+D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\obj\Release\net9.0\EnergiTrack.csproj.AssemblyReference.cache
+D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\obj\Release\net9.0\EnergiTrack.GeneratedMSBuildEditorConfig.editorconfig
+D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\obj\Release\net9.0\EnergiTrack.AssemblyInfoInputs.cache
+D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\obj\Release\net9.0\EnergiTrack.AssemblyInfo.cs
+D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\obj\Release\net9.0\EnergiTrack.csproj.CoreCompileInputs.cache
+D:\kampus\Semester 8\Tugas Akhir\aplikasi\EnergiTrack\obj\Release\net9.0\EnergiTrack.sourcelink.json

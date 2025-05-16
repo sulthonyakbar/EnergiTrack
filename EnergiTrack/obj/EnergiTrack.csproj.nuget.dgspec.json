@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj": {}
+    "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj": {}
   },
   "projects": {
-    "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj": {
+    "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj",
+        "projectUniqueName": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj",
         "projectName": "EnergiTrack",
-        "projectPath": "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj",
-        "packagesPath": "C:\\Users\\Sulthony Akbar\\.nuget\\packages\\",
-        "outputPath": "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\obj\\",
+        "projectPath": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj",
+        "packagesPath": "C:\\Users\\yafi yoga\\.nuget\\packages\\",
+        "outputPath": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sulthony Akbar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yafi yoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

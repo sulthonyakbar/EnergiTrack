@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\",
+  "WorkspaceRootPath": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|d:\\it telkom surabaya\\semester 8\\konstruksi perangkat lunak\\tugas\\energitrack\\energitrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|d:\\kampus\\semester 8\\tugas akhir\\aplikasi\\energitrack\\energitrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|solutionrelative:energitrack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC780A09-3C1B-47BB-91CC-A94C98F02FD3}|TestProject1\\TestProject1.csproj|d:\\kampus\\semester 8\\tugas akhir\\aplikasi\\energitrack\\testproject1\\energitracktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC780A09-3C1B-47BB-91CC-A94C98F02FD3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\energitracktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC780A09-3C1B-47BB-91CC-A94C98F02FD3}|TestProject1\\TestProject1.csproj|d:\\kampus\\semester 8\\tugas akhir\\aplikasi\\energitrack\\testproject1\\testproject1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC780A09-3C1B-47BB-91CC-A94C98F02FD3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\testproject1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|d:\\kampus\\semester 8\\tugas akhir\\aplikasi\\energitrack\\energitrack\\benchmarkperangkat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|solutionrelative:energitrack\\benchmarkperangkat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|d:\\kampus\\semester 8\\tugas akhir\\aplikasi\\energitrack\\energitrack\\energitrack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{81205693-EA3F-4E51-B5C0-662F662BF568}|EnergiTrack\\EnergiTrack.csproj|solutionrelative:energitrack\\energitrack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC780A09-3C1B-47BB-91CC-A94C98F02FD3}|TestProject1\\TestProject1.csproj|d:\\kampus\\semester 8\\tugas akhir\\aplikasi\\energitrack\\testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC780A09-3C1B-47BB-91CC-A94C98F02FD3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BenchmarkPerangkat.cs",
+              "DocumentMoniker": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\BenchmarkPerangkat.cs",
+              "RelativeDocumentMoniker": "EnergiTrack\\BenchmarkPerangkat.cs",
+              "ToolTip": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\BenchmarkPerangkat.cs",
+              "RelativeToolTip": "EnergiTrack\\BenchmarkPerangkat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:09:34.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestProject1.csproj",
+              "DocumentMoniker": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\TestProject1\\TestProject1.csproj",
+              "RelativeDocumentMoniker": "TestProject1\\TestProject1.csproj",
+              "ToolTip": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\TestProject1\\TestProject1.csproj",
+              "RelativeToolTip": "TestProject1\\TestProject1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T18:59:42.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnergiTrackTest.cs",
+              "DocumentMoniker": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\TestProject1\\EnergiTrackTest.cs",
+              "RelativeDocumentMoniker": "TestProject1\\EnergiTrackTest.cs",
+              "ToolTip": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\TestProject1\\EnergiTrackTest.cs",
+              "RelativeToolTip": "TestProject1\\EnergiTrackTest.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:26:28.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\TestProject1\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "TestProject1\\MSTestSettings.cs",
+              "ToolTip": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\TestProject1\\MSTestSettings.cs",
+              "RelativeToolTip": "TestProject1\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:22:29.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnergiTrack.csproj",
+              "DocumentMoniker": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj",
+              "RelativeDocumentMoniker": "EnergiTrack\\EnergiTrack.csproj",
+              "ToolTip": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\EnergiTrack.csproj",
+              "RelativeToolTip": "EnergiTrack\\EnergiTrack.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T15:54:02.533Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\Program.cs",
+              "DocumentMoniker": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\Program.cs",
               "RelativeDocumentMoniker": "EnergiTrack\\Program.cs",
-              "ToolTip": "D:\\IT Telkom Surabaya\\SEMESTER 8\\KONSTRUKSI PERANGKAT LUNAK\\TUGAS\\EnergiTrack\\EnergiTrack\\Program.cs",
+              "ToolTip": "D:\\kampus\\Semester 8\\Tugas Akhir\\aplikasi\\EnergiTrack\\EnergiTrack\\Program.cs",
               "RelativeToolTip": "EnergiTrack\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALAAAAAAAAAAAAAwwMsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T07:18:32.868Z",
               "EditorCaption": ""
