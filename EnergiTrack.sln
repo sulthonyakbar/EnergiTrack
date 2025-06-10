@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergiTrack", "EnergiTrack\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{1F5C5919-5B65-402A-8922-9803008017D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{50CEDB3B-69E1-4D4D-BC71-78CFDF4A2139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1F5C5919-5B65-402A-8922-9803008017D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F5C5919-5B65-402A-8922-9803008017D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F5C5919-5B65-402A-8922-9803008017D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CEDB3B-69E1-4D4D-BC71-78CFDF4A2139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CEDB3B-69E1-4D4D-BC71-78CFDF4A2139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CEDB3B-69E1-4D4D-BC71-78CFDF4A2139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CEDB3B-69E1-4D4D-BC71-78CFDF4A2139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

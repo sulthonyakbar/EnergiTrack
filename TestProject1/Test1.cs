@@ -1,8 +1,9 @@
-﻿using EnergiTrack;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Reflection;
 using System.Collections.Generic;
+using EnergiTrack.Model;
+using EnergiTrack.Service;
 
 namespace TestProject1
 {

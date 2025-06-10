@@ -1,10 +1,11 @@
-﻿using System;
+﻿using EnergiTrack.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EnergiTrack
+namespace EnergiTrack.Service
 {
     public static class JadwalService
     {

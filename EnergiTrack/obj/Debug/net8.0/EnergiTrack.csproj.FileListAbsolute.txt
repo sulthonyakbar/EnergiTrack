@@ -13,3 +13,18 @@ D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\En
 D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.pdb
 D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.genruntimeconfig.cache
 D:\IT Telkom Surabaya\SEMESTER 8\KONSTRUKSI PERANGKAT LUNAK\TUGAS\EnergiTrack\EnergiTrack\obj\Debug\net8.0\ref\EnergiTrack.dll
+C:\KPL\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.exe
+C:\KPL\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.deps.json
+C:\KPL\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.runtimeconfig.json
+C:\KPL\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.dll
+C:\KPL\EnergiTrack\EnergiTrack\bin\Debug\net8.0\EnergiTrack.pdb
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.AssemblyInfoInputs.cache
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.AssemblyInfo.cs
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.csproj.CoreCompileInputs.cache
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.sourcelink.json
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.dll
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\refint\EnergiTrack.dll
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.pdb
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\EnergiTrack.genruntimeconfig.cache
+C:\KPL\EnergiTrack\EnergiTrack\obj\Debug\net8.0\ref\EnergiTrack.dll
