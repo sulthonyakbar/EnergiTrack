@@ -11,6 +11,10 @@ namespace EnergiTrack.Service
     {
         private static List<Jadwal> daftarJadwal = new();
         private static int nextId = 1;
+        public static List<Jadwal> GetDaftar()
+        {
+            return daftarJadwal;
+        }
 
         private static Dictionary<(StatusJadwal, Aksi), StatusJadwal> transisi = new()
         {
