@@ -1,0 +1,22 @@
+[
+  {
+    "DeviceName": "Kulkas",
+    "Consumption": 60.0,
+    "Status": "Hemat"
+  },
+  {
+    "DeviceName": "AC",
+    "Consumption": 150.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Lampu",
+    "Consumption": 100.0,
+    "Status": "Boros"
+  },
+  {
+    "DeviceName": "Lampu",
+    "Consumption": 80.0,
+    "Status": "Boros"
+  }
+]
