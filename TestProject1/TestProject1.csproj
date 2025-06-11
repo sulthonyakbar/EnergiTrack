@@ -8,9 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
     <PackageReference Include="MSTest" Version="3.8.3" />
+=======
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="MSTest" Version="3.6.4" />
+>>>>>>> cdcfb45f179201a40fd0a363fdb2b13ea609e048
   </ItemGroup>
 
   <ItemGroup>

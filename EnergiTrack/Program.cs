@@ -1,87 +1,129 @@
-﻿using System;
+using System;
+using System.Globalization;
 
 namespace EnergiTrack
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var manager = new EnergyConsumptionManager();
+            bool isRunning = true;
 
-            while (true)
+            while (isRunning)
             {
-                Console.WriteLine("\n=== Aplikasi Pemantauan Konsumsi Energi ===");
-                Console.WriteLine("1. Tambah Data Konsumsi");
-                Console.WriteLine("2. Edit Data Konsumsi");
-                Console.WriteLine("3. Hapus Data Konsumsi");
-                Console.WriteLine("4. Tampilkan Semua Data");
-                Console.WriteLine("5. Hitung Total Biaya");
-                Console.WriteLine("0. Keluar");
-                Console.Write("Pilih menu: ");
-                string pilihan = Console.ReadLine();
+                DisplayMenu();
+                var choice = Console.ReadLine();
 
-                switch (pilihan)
+                switch (choice)
                 {
-                    case "1":
-                        Console.Write("Nama perangkat: ");
-                        string nama = Console.ReadLine();
-                        Console.Write("Konsumsi (kWh): ");
-                        if (double.TryParse(Console.ReadLine(), out double konsumsi))
-                        {
-                            manager.AddConsumption(nama, konsumsi);
-                            Console.WriteLine("Data berhasil ditambahkan.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Input tidak valid.");
-                        }
-                        break;
-
-                    case "2":
-                        Console.Write("Nama perangkat yang akan diedit: ");
-                        string editNama = Console.ReadLine();
-                        Console.Write("Konsumsi baru (kWh): ");
-                        if (double.TryParse(Console.ReadLine(), out double newKonsumsi))
-                        {
-                            manager.EditConsumption(editNama, newKonsumsi);
-                            Console.WriteLine("Data berhasil diubah.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Input tidak valid.");
-                        }
-                        break;
-
-                    case "3":
-                        Console.Write("Nama perangkat yang akan dihapus: ");
-                        string hapusNama = Console.ReadLine();
-                        manager.RemoveConsumption(hapusNama);
-                        Console.WriteLine("Data berhasil dihapus.");
-                        break;
-
-                    case "4":
-                        var data = manager.GetAllConsumptions();
-                        Console.WriteLine("\nData Konsumsi Energi:");
-                        foreach (var item in data)
-                        {
-                            Console.WriteLine($"- {item.DeviceName}: {item.Consumption} kWh | Status: {item.Status}");
-                        }
-                        break;
-
-                    case "5":
-                        double total = manager.CalculateTotalCost();
-                        Console.WriteLine($"Total biaya konsumsi: Rp{total:N2}");
-                        break;
-
-                    case "0":
-                        Console.WriteLine("Keluar dari aplikasi.");
-                        return;
-
-                    default:
-                        Console.WriteLine("Pilihan tidak valid.");
-                        break;
+                    case "1": AddConsumption(manager); break;
+                    case "2": EditConsumption(manager); break;
+                    case "3": RemoveConsumption(manager); break;
+                    case "4": ShowAllConsumptions(manager); break;
+                    case "5": ShowTotalCost(manager); break;
+                    case "0": isRunning = false; break;
+                    default: Console.WriteLine("Pilihan tidak valid."); break;
                 }
             }
+        }
+
+        private static void DisplayMenu()
+        {
+            Console.WriteLine("\n===== Energy Consumption Manager =====");
+            Console.WriteLine("1. Tambah Konsumsi");
+            Console.WriteLine("2. Edit Konsumsi (hanya KWh)");
+            Console.WriteLine("3. Hapus Konsumsi");
+            Console.WriteLine("4. Lihat Semua Konsumsi");
+            Console.WriteLine("5. Hitung Total Biaya");
+            Console.WriteLine("0. Keluar");
+            Console.Write("Pilih menu: ");
+        }
+
+        private static void AddConsumption(EnergyConsumptionManager manager)
+        {
+            Console.Write("Nama perangkat: ");
+            var name = Console.ReadLine();
+
+            Console.Write("Konsumsi (kWh): ");
+            if (TryReadDouble(out double consumption))
+            {
+                try
+                {
+                    manager.AddConsumption(name, consumption);
+                    Console.WriteLine("Data konsumsi berhasil ditambahkan.");
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Input tidak valid.");
+            }
+        }
+
+        private static void EditConsumption(EnergyConsumptionManager manager)
+        {
+            Console.Write("Nama perangkat yang ingin diubah: ");
+            var name = Console.ReadLine();
+
+            Console.Write("Konsumsi baru (kWh): ");
+            if (TryReadDouble(out double newConsumption))
+            {
+                try
+                {
+                    manager.EditConsumption(name, newConsumption);
+                    Console.WriteLine("Data konsumsi berhasil diperbarui.");
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Input tidak valid.");
+            }
+        }
+
+        private static void RemoveConsumption(EnergyConsumptionManager manager)
+        {
+            Console.Write("Nama perangkat yang ingin dihapus: ");
+            var name = Console.ReadLine();
+
+            manager.RemoveConsumption(name);
+            Console.WriteLine("Data konsumsi berhasil dihapus.");
+        }
+
+        private static void ShowAllConsumptions(EnergyConsumptionManager manager)
+        {
+            var consumptions = manager.GetAllConsumptions();
+
+            if (consumptions.Count == 0)
+            {
+                Console.WriteLine("Data konsumsi kosong.");
+                return;
+            }
+
+            Console.WriteLine("\n--- Data Konsumsi Energi ---");
+            foreach (var c in consumptions)
+            {
+                Console.WriteLine($"Perangkat: {c.DeviceName}, Konsumsi: {c.Consumption} kWh, Status: {c.Status}");
+            }
+        }
+
+        private static void ShowTotalCost(EnergyConsumptionManager manager)
+        {
+            double totalCost = manager.CalculateTotalCost();
+            Console.WriteLine($"Total Biaya Energi: Rp {totalCost.ToString("N2", CultureInfo.InvariantCulture)}");
+        }
+
+        private static bool TryReadDouble(out double result)
+        {
+            var input = Console.ReadLine();
+            return double.TryParse(input, out result);
         }
     }
 }

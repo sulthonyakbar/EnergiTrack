@@ -7,153 +7,182 @@ namespace EnergiTrack
 {
     public class EnergyConsumption
     {
-        public string DeviceName { get; set; } // Nama perangkat
-        public double Consumption { get; set; } // Konsumsi energi (kWh)
-        public string Status { get; set; } // Status hemat atau boros
+        public string DeviceName { get; set; }
+        public double Consumption { get; set; }
+        public string Status { get; set; }
     }
 
     public class RuntimeConfig
     {
-        public double PricePerKWh { get; set; } // Harga per kWh
+        public double PricePerKWh { get; set; }
+    }
+
+    public enum EnergyStatusState
+    {
+        Hemat,
+        Boros
+    }
+
+    public class EnergyStatusAutomata
+    {
+        private EnergyStatusState currentState = EnergyStatusState.Hemat;
+
+        public EnergyStatusState Evaluate(double totalCost)
+        {
+            currentState = totalCost > 100000 ? EnergyStatusState.Boros : EnergyStatusState.Hemat;
+            return currentState;
+        }
     }
 
     public class EnergyConsumptionManager
     {
-        private List<EnergyConsumption> consumptions;
-        private double pricePerKWh;
-        private readonly string configFilePath;
-        private readonly string dataFilePath = "energy_consumptions.json";
+        private readonly List<EnergyConsumption> _consumptions;
+        private double _pricePerKWh;
+        private readonly string _configFilePath;
+        private readonly string _dataFilePath = "energy_consumptions.json";
+        private readonly EnergyStatusAutomata _automata;
 
-        // Design by Contract - Postcondition & Invariant:
-        // Konstruktor menjamin consumptions selalu terinisialisasi
-        // dan pricePerKWh selalu memiliki nilai valid.
         public EnergyConsumptionManager()
         {
-            consumptions = new List<EnergyConsumption>();
-            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            configFilePath = Path.Combine(baseDirectory, "..", "..", "..", "runtime_config.json");
-
-            LoadConfig(); // akan menetapkan nilai pricePerKWh
+            _consumptions = new List<EnergyConsumption>();
+            _configFilePath = GetConfigFilePath();
+            LoadConfig();
             LoadConsumptions();
+            _automata = new EnergyStatusAutomata();
         }
 
-        // Design by Contract:
-        // Precondition: file konfigurasi mungkin ada atau tidak
-        // Postcondition: pricePerKWh selalu memiliki nilai valid
+        private string GetConfigFilePath()
+        {
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            return Path.Combine(baseDir, "..", "..", "..", "runtime_config.json");
+        }
+
         private void LoadConfig()
         {
+            if (!File.Exists(_configFilePath))
+            {
+                _pricePerKWh = 1444.7;
+                SaveConfig();
+                return;
+            }
+
             try
             {
-                if (File.Exists(configFilePath))
-                {
-                    string json = File.ReadAllText(configFilePath);
-                    var config = JsonConvert.DeserializeObject<RuntimeConfig>(json);
-                    pricePerKWh = config.PricePerKWh;
-                }
-                else
-                {
-                    pricePerKWh = 1444.7; // Kontrak: nilai default
-                    SaveConfig(); // Kontrak: simpan konfigurasi default
-                }
+                var json = File.ReadAllText(_configFilePath);
+                var config = JsonConvert.DeserializeObject<RuntimeConfig>(json);
+                _pricePerKWh = config?.PricePerKWh ?? 1444.7;
             }
             catch
             {
-                pricePerKWh = 1444.7; // Kontrak: fallback jika gagal memuat
+                _pricePerKWh = 1444.7;
             }
         }
 
         private void SaveConfig()
         {
-            var config = new RuntimeConfig { PricePerKWh = pricePerKWh };
-            string json = JsonConvert.SerializeObject(config, Formatting.Indented);
-            File.WriteAllText(configFilePath, json);
+            var config = new RuntimeConfig { PricePerKWh = _pricePerKWh };
+            var json = JsonConvert.SerializeObject(config, Formatting.Indented);
+            File.WriteAllText(_configFilePath, json);
         }
 
         private void LoadConsumptions()
         {
+            if (!File.Exists(_dataFilePath)) return;
+
             try
             {
-                if (File.Exists(dataFilePath))
-                {
-                    string json = File.ReadAllText(dataFilePath);
-                    consumptions = JsonConvert.DeserializeObject<List<EnergyConsumption>>(json);
-                }
+                var json = File.ReadAllText(_dataFilePath);
+                var data = JsonConvert.DeserializeObject<List<EnergyConsumption>>(json);
+                if (data != null) _consumptions.AddRange(data);
             }
-            catch { }
+            catch
+            {
+                
+            }
         }
 
         private void SaveConsumptions()
         {
             try
             {
-                string json = JsonConvert.SerializeObject(consumptions, Formatting.Indented);
-                File.WriteAllText(dataFilePath, json);
+                var json = JsonConvert.SerializeObject(_consumptions, Formatting.Indented);
+                File.WriteAllText(_dataFilePath, json);
             }
-            catch { }
+            catch
+            {
+               
+            }
         }
 
-        // Design by Contract:
-        // Precondition: nama perangkat tidak boleh kosong/null, konsumsi >= 0
-        // Postcondition: data ditambahkan ke list dan disimpan
         public void AddConsumption(string deviceName, double consumption)
         {
-            if (string.IsNullOrWhiteSpace(deviceName)) throw new ArgumentException("Nama perangkat tidak boleh kosong.");
-            if (consumption < 0) throw new ArgumentException("Konsumsi tidak boleh negatif.");
+            ValidateInput(deviceName, consumption);
 
-            double totalCost = consumption * pricePerKWh;
-            string status = (totalCost > 100000) ? "Boros" : "Hemat";
-            consumptions.Add(new EnergyConsumption { DeviceName = deviceName, Consumption = consumption, Status = status });
+            var totalCost = consumption * _pricePerKWh;
+            var status = _automata.Evaluate(totalCost);
+
+            _consumptions.Add(new EnergyConsumption
+            {
+                DeviceName = deviceName,
+                Consumption = consumption,
+                Status = status.ToString()
+            });
+
             SaveConsumptions();
         }
 
-        // Design by Contract:
-        // Precondition: nama perangkat tidak boleh kosong, konsumsi baru >= 0
-        // Postcondition: data pada item yang ditemukan diperbarui dan disimpan
         public void EditConsumption(string deviceName, double newConsumption)
         {
-            if (string.IsNullOrWhiteSpace(deviceName)) throw new ArgumentException("Nama perangkat tidak boleh kosong.");
-            if (newConsumption < 0) throw new ArgumentException("Konsumsi tidak boleh negatif.");
+            ValidateInput(deviceName, newConsumption);
 
-            var consumption = consumptions.Find(c => c.DeviceName == deviceName);
-            if (consumption != null)
-            {
-                double totalCost = newConsumption * pricePerKWh;
-                consumption.Consumption = newConsumption;
-                consumption.Status = (totalCost > 100000) ? "Boros" : "Hemat";
-                SaveConsumptions();
-            }
+            var consumption = _consumptions.Find(c => c.DeviceName == deviceName);
+            if (consumption == null) return;
+
+            var totalCost = newConsumption * _pricePerKWh;
+            var status = _automata.Evaluate(totalCost);
+
+            consumption.Consumption = newConsumption;
+            consumption.Status = status.ToString();
+
+            SaveConsumptions();
         }
 
-        // Design by Contract:
-        // Precondition: perangkat harus ada dalam list
-        // Postcondition: jika ditemukan, data dihapus dan perubahan disimpan
         public void RemoveConsumption(string deviceName)
         {
-            var consumption = consumptions.Find(c => c.DeviceName == deviceName);
-            if (consumption != null)
-            {
-                consumptions.Remove(consumption);
-                SaveConsumptions();
-            }
+            var consumption = _consumptions.Find(c => c.DeviceName == deviceName);
+            if (consumption == null) return;
+
+            _consumptions.Remove(consumption);
+            SaveConsumptions();
         }
 
-        // Design by Contract:
-        // Invariant: consumptions tidak null, selalu list aktif
-        public List<EnergyConsumption> GetAllConsumptions()
+        public IReadOnlyList<EnergyConsumption> GetAllConsumptions()
         {
-            return new List<EnergyConsumption>(consumptions);
+            return _consumptions.AsReadOnly();
         }
 
-        // Design by Contract:
-        // Postcondition: mengembalikan total biaya semua perangkat
         public double CalculateTotalCost()
         {
             double total = 0;
-            foreach (var c in consumptions)
+            foreach (var c in _consumptions)
             {
-                total += c.Consumption * pricePerKWh;
+                total += c.Consumption * _pricePerKWh;
             }
             return total;
+        }
+
+        public void ClearAllData()
+        {
+            _consumptions.Clear();
+            SaveConsumptions();
+        }
+
+        private static void ValidateInput(string deviceName, double consumption)
+        {
+            if (string.IsNullOrWhiteSpace(deviceName))
+                throw new ArgumentException("Nama perangkat tidak boleh kosong.");
+            if (consumption < 0)
+                throw new ArgumentException("Konsumsi tidak boleh negatif.");
         }
     }
 }

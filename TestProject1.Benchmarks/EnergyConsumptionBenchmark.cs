@@ -7,38 +7,52 @@ namespace TestProject1.Benchmarks
     [MemoryDiagnoser]
     public class EnergyConsumptionBenchmark
     {
-        private EnergyConsumptionManager manager;
+        private EnergyConsumptionManager _manager;
+
+        private const string DeviceKulkas = "Kulkas";
+        private const string DeviceLampu = "Lampu";
+        private const string DeviceTV = "TV";
 
         [GlobalSetup]
         public void Setup()
         {
-            manager = new EnergyConsumptionManager();
+            _manager = new EnergyConsumptionManager();
+            // Bersihkan data supaya benchmark dimulai dari kondisi bersih
+            _manager.ClearAllData();
         }
 
         [Benchmark]
-        public void TestAddConsumption()
+        public void AddConsumptionBenchmark()
         {
-            manager.AddConsumption("Kulkas", 100);
+            _manager.AddConsumption(DeviceKulkas, 100);
         }
 
         [Benchmark]
-        public void TestEditConsumption()
+        public void EditConsumptionBenchmark()
         {
-            manager.AddConsumption("Lampu", 50);
-            manager.EditConsumption("Lampu", 75);
+            _manager.AddConsumption(DeviceLampu, 50);
+            _manager.EditConsumption(DeviceLampu, 75);
         }
 
         [Benchmark]
-        public void TestRemoveConsumption()
+        public void RemoveConsumptionBenchmark()
         {
-            manager.AddConsumption("TV", 120);
-            manager.RemoveConsumption("TV");
+            _manager.AddConsumption(DeviceTV, 120);
+            _manager.RemoveConsumption(DeviceTV);
         }
 
         [Benchmark]
-        public void TestCalculateTotalCost()
+        public void CalculateTotalCostBenchmark()
         {
-            manager.CalculateTotalCost();
+            _manager.CalculateTotalCost();
+        }
+    }
+
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var summary = BenchmarkRunner.Run<EnergyConsumptionBenchmark>();
         }
     }
 }
