@@ -31,7 +31,6 @@
             label1 = new Label();
             label3 = new Label();
             comboAksi = new ComboBox();
-            txtNama = new TextBox();
             label4 = new Label();
             label5 = new Label();
             timePickerMulai = new DateTimePicker();
@@ -47,6 +46,7 @@
             btnReset = new Button();
             comboHari = new ComboBox();
             buttonBack = new Button();
+            comboPerangkat = new ComboBox();
             SuspendLayout();
             // 
             // label1
@@ -78,14 +78,6 @@
             comboAksi.Name = "comboAksi";
             comboAksi.Size = new Size(80, 25);
             comboAksi.TabIndex = 4;
-            // 
-            // txtNama
-            // 
-            txtNama.Font = new Font("Century Gothic", 9F);
-            txtNama.Location = new Point(137, 102);
-            txtNama.Name = "txtNama";
-            txtNama.Size = new Size(172, 22);
-            txtNama.TabIndex = 5;
             // 
             // label4
             // 
@@ -245,11 +237,21 @@
             buttonBack.UseVisualStyleBackColor = true;
             buttonBack.Click += buttonBack_Click;
             // 
+            // comboPerangkat
+            // 
+            comboPerangkat.FormattingEnabled = true;
+            comboPerangkat.Location = new Point(137, 102);
+            comboPerangkat.Name = "comboPerangkat";
+            comboPerangkat.Size = new Size(121, 23);
+            comboPerangkat.TabIndex = 20;
+            comboPerangkat.SelectedIndexChanged += comboPerangkat_SelectedIndexChanged;
+            // 
             // JadwalPage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(584, 361);
+            Controls.Add(comboPerangkat);
             Controls.Add(buttonBack);
             Controls.Add(comboHari);
             Controls.Add(btnReset);
@@ -263,7 +265,6 @@
             Controls.Add(timePickerMulai);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(txtNama);
             Controls.Add(comboAksi);
             Controls.Add(label3);
             Controls.Add(txtId);
@@ -280,7 +281,6 @@
         private Label label1;
         private Label label3;
         private ComboBox comboAksi;
-        private TextBox txtNama;
         private Label label4;
         private Label label5;
         private DateTimePicker timePickerMulai;
@@ -296,5 +296,6 @@
         private Button btnReset;
         private ComboBox comboHari;
         private Button buttonBack;
+        private ComboBox comboPerangkat;
     }
 }

@@ -23,6 +23,7 @@ namespace WinFormsApp1
               "Minggu"
             });
             LoadJadwal();
+            LoadPerangkat();
         }
         private void LoadJadwal()
         {
@@ -41,14 +42,22 @@ namespace WinFormsApp1
 
         private void btnTambah_Click(object sender, EventArgs e)
         {
-            string nama = txtNama.Text;
+            string nama = comboPerangkat.SelectedItem?.ToString();
             string hari = comboHari.SelectedItem?.ToString() ?? "";
             TimeSpan mulai = timePickerMulai.Value.TimeOfDay;
             TimeSpan selesai = timePickerSelesai.Value.TimeOfDay;
 
+            var perangkat = PerangkatService.GetDaftar().FirstOrDefault(p => p.Nama == nama);
+
+            if (perangkat == null)
+            {
+                MessageBox.Show("Pilih perangkat yang valid.");
+                return;
+            }
+
             try
             {
-                JadwalService.TambahJadwal(nama, hari, mulai, selesai);
+                JadwalService.TambahJadwal(perangkat.Nama, hari, mulai, selesai);
                 LoadJadwal();
                 btnReset_Click(null, null);
             }
@@ -60,20 +69,38 @@ namespace WinFormsApp1
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(txtId.Text, out int id))
+            if (!int.TryParse(txtId.Text, out int id))
             {
-                string nama = txtNama.Text;
-                string hari = comboHari.SelectedItem?.ToString() ?? "";
-                TimeSpan mulai = timePickerMulai.Value.TimeOfDay;
-                TimeSpan selesai = timePickerSelesai.Value.TimeOfDay;
+                MessageBox.Show("ID tidak valid.");
+                return;
+            }
 
+            if (comboPerangkat.SelectedItem == null)
+            {
+                MessageBox.Show("Pilih perangkat terlebih dahulu.");
+                return;
+            }
+
+            if (comboHari.SelectedItem == null)
+            {
+                MessageBox.Show("Pilih hari terlebih dahulu.");
+                return;
+            }
+
+            string nama = comboPerangkat.SelectedItem.ToString();
+            string hari = comboHari.SelectedItem.ToString();
+            TimeSpan mulai = timePickerMulai.Value.TimeOfDay;
+            TimeSpan selesai = timePickerSelesai.Value.TimeOfDay;
+
+            try
+            {
                 JadwalService.EditJadwal(id, nama, hari, mulai, selesai);
                 LoadJadwal();
                 btnReset_Click(null, null);
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("ID tidak valid.");
+                MessageBox.Show($"Gagal mengedit jadwal: {ex.Message}");
             }
         }
 
@@ -113,7 +140,7 @@ namespace WinFormsApp1
         private void btnReset_Click(object sender, EventArgs e)
         {
             txtId.Text = "";
-            txtNama.Text = "";
+            comboPerangkat.SelectedIndex = -1;
             comboHari.SelectedIndex = -1;
         }
 
@@ -127,6 +154,20 @@ namespace WinFormsApp1
             HomePage homePage = new HomePage();
             homePage.Show();
             this.Close();
+        }
+        private void LoadPerangkat()
+        {
+            comboPerangkat.Items.Clear();
+            var perangkatList = EnergiTrack.Service.PerangkatService.GetDaftar(); // Tambahkan GetDaftar() ke PerangkatService
+            foreach (var p in perangkatList)
+            {
+                comboPerangkat.Items.Add(p.Nama);
+            }
+        }
+
+        private void comboPerangkat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -2,24 +2,25 @@
 {
     partial class PerangkatPage
     {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnRemove;
-        private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Label labelTitle;
 
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
+            {
                 components.Dispose();
+            }
             base.Dispose(disposing);
         }
 
-<<<<<<< HEAD
         #region Windows Form Designer generated code
-
         private void InitializeComponent()
         {
             label1 = new Label();
@@ -32,14 +33,14 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
-            buttonBack = new Button();
             label4 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(39, 98);
+            label1.Location = new Point(34, 89);
             label1.Name = "label1";
             label1.Size = new Size(95, 15);
             label1.TabIndex = 0;
@@ -48,7 +49,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(116, 63);
+            label2.Location = new Point(116, 64);
             label2.Name = "label2";
             label2.Size = new Size(18, 15);
             label2.TabIndex = 1;
@@ -57,7 +58,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(306, 98);
+            label3.Location = new Point(298, 92);
             label3.Name = "label3";
             label3.Size = new Size(89, 15);
             label3.TabIndex = 2;
@@ -65,7 +66,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(145, 60);
+            textBox1.Location = new Point(167, 62);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(32, 23);
@@ -73,7 +74,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(145, 93);
+            textBox2.Location = new Point(167, 89);
             textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(110, 23);
@@ -81,7 +82,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(413, 98);
+            textBox3.Location = new Point(426, 92);
             textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(110, 23);
@@ -89,17 +90,17 @@
             // 
             // listView1
             // 
-            listView1.Location = new Point(34, 136);
+            listView1.Location = new Point(51, 139);
             listView1.Margin = new Padding(3, 2, 3, 2);
             listView1.Name = "listView1";
-            listView1.Size = new Size(489, 111);
+            listView1.Size = new Size(485, 111);
             listView1.TabIndex = 6;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.View = View.Details;
             // 
             // button2
             // 
-            button2.Location = new Point(34, 261);
+            button2.Location = new Point(51, 261);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(131, 22);
@@ -109,7 +110,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(219, 261);
+            button3.Location = new Point(234, 261);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
             button3.Size = new Size(131, 22);
@@ -119,7 +120,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(392, 261);
+            button4.Location = new Point(405, 261);
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
             button4.Size = new Size(131, 22);
@@ -127,33 +128,33 @@
             button4.Text = "Hapus";
             button4.UseVisualStyleBackColor = true;
             // 
-            // buttonBack
-            // 
-            buttonBack.Location = new Point(12, 12);
-            buttonBack.Name = "buttonBack";
-            buttonBack.Size = new Size(47, 23);
-            buttonBack.TabIndex = 14;
-            buttonBack.Text = "Back";
-            buttonBack.UseVisualStyleBackColor = true;
-            buttonBack.Click += buttonBack_Click;
-            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(193, 12);
+            label4.Location = new Point(182, 21);
             label4.Name = "label4";
-            label4.Size = new Size(229, 25);
-            label4.TabIndex = 15;
-            label4.Text = "Data Perangkat Saya";
+            label4.Size = new Size(242, 25);
+            label4.TabIndex = 14;
+            label4.Text = "Daftar Perangkat Saya";
             // 
-            // Form1
+            // button1
+            // 
+            button1.Location = new Point(23, 16);
+            button1.Name = "button1";
+            button1.Size = new Size(46, 23);
+            button1.TabIndex = 15;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // PerangkatPage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(584, 361);
+            Controls.Add(button1);
             Controls.Add(label4);
-            Controls.Add(buttonBack);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -165,7 +166,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Margin = new Padding(3, 2, 3, 2);
-            Name = "Form1";
+            Name = "PerangkatPage";
             Text = "Form Perangkat";
             ResumeLayout(false);
             PerformLayout();
@@ -183,62 +184,7 @@
         private Button button2;
         private Button button3;
         private Button button4;
-        private Button buttonBack;
         private Label label4;
-=======
-        private void InitializeComponent()
-        {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnRemove = new System.Windows.Forms.Button();
-            this.btnCalculate = new System.Windows.Forms.Button();
-            this.labelTitle = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
-
-            this.labelTitle.AutoSize = true;
-            this.labelTitle.Location = new System.Drawing.Point(20, 15);
-            this.labelTitle.Size = new System.Drawing.Size(350, 32);
-            this.labelTitle.Text = "Energy Consumption Manager";
-
-            this.dataGridView1.Location = new System.Drawing.Point(20, 60);
-            this.dataGridView1.Size = new System.Drawing.Size(650, 300);
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-
-            this.btnAdd.Location = new System.Drawing.Point(690, 60);
-            this.btnAdd.Size = new System.Drawing.Size(120, 35);
-            this.btnAdd.Text = "Tambah";
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-
-            this.btnEdit.Location = new System.Drawing.Point(690, 110);
-            this.btnEdit.Size = new System.Drawing.Size(120, 35);
-            this.btnEdit.Text = "Edit";
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-
-            this.btnRemove.Location = new System.Drawing.Point(690, 160);
-            this.btnRemove.Size = new System.Drawing.Size(120, 35);
-            this.btnRemove.Text = "Hapus";
-            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
-
-            this.btnCalculate.Location = new System.Drawing.Point(690, 210);
-            this.btnCalculate.Size = new System.Drawing.Size(120, 35);
-            this.btnCalculate.Text = "Hitung Total";
-            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
-
-            this.ClientSize = new System.Drawing.Size(830, 400);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.btnRemove);
-            this.Controls.Add(this.btnCalculate);
-            this.Controls.Add(this.labelTitle);
-            this.Text = "Energy Consumption Manager";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-        }
->>>>>>> origin/1201210008_fauzirido
+        private Button button1;
     }
 }

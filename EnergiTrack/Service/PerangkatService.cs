@@ -24,12 +24,18 @@ namespace EnergiTrack.Service
             Nama = nama;
             Daya = daya;
         }
+
     }
 
     // Kelas statik PerangkatService
     public static class PerangkatService
     {
         private static List<Perangkat> daftarPerangkat = new();
+        public static List<Perangkat> GetDaftar()
+        {
+            return daftarPerangkat;
+        }
+
         private static int nextId = 1;
 
         public static Perangkat TambahPerangkat(string nama, int daya)
