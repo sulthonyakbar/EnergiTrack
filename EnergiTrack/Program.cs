@@ -1,9 +1,9 @@
-﻿using EnergiTrack.Model;
-using EnergiTrack.Service;
-class Program
-{
-    static void Main()
-    {
+using System;
+using System.Globalization;
 
+namespace EnergiTrack
+{
+    class Program
+    {
     }
 }

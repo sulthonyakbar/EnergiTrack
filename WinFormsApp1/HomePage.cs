@@ -24,7 +24,7 @@ namespace WinFormsApp1
 
         private void buttonPerangkat_Click(object sender, EventArgs e)
         {
-            Form1 perangkatPage = new Form1();
+            PerangkatPage perangkatPage = new PerangkatPage();
             perangkatPage.Show();
             this.Hide();
         }
