@@ -40,5 +40,19 @@ namespace WinFormsApp1
         {
             Application.Exit();
         }
+
+        private void buttonKonsumsi_Click(object sender, EventArgs e)
+        {
+            KonsumsiPage konsumsiPage = new KonsumsiPage();
+            konsumsiPage.Show();
+            this.Hide();
+        }
+
+        private void buttonKategori_Click(object sender, EventArgs e)
+        {
+            KategoriPage kategoriPage = new KategoriPage();
+            kategoriPage.Show();
+            this.Hide();
+        }
     }
 }

@@ -25,6 +25,7 @@ namespace WinFormsApp1
             button4.Click += buttonHapus_Click;   // Hapus
             listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
 
+            LoadKategori(); // Load kategori saat form dibuka
             RefreshListView();
         }
 
@@ -33,9 +34,10 @@ namespace WinFormsApp1
             listView1.View = View.Details;
             listView1.FullRowSelect = true;
             listView1.Columns.Clear();
-            listView1.Columns.Add("ID", 150);
-            listView1.Columns.Add("Nama Perangkat", 250);
-            listView1.Columns.Add("Daya (Watt)", 200);
+            listView1.Columns.Add("ID", 50);
+            listView1.Columns.Add("Nama Perangkat", 150);
+            listView1.Columns.Add("Daya (Watt)", 100);
+            listView1.Columns.Add("Kategori", 100);
         }
 
         private void RefreshListView()
@@ -46,7 +48,16 @@ namespace WinFormsApp1
                 var item = new ListViewItem(perangkat.Id.ToString());
                 item.SubItems.Add(perangkat.Nama);
                 item.SubItems.Add(perangkat.Daya.ToString());
+                item.SubItems.Add(perangkat.KategoriNama);
                 listView1.Items.Add(item);
+            }
+        }
+        private void LoadKategori()
+        {
+            comboKategori.Items.Clear();
+            foreach (var cat in KategoriStore.CategoryStore.GetAll())
+            {
+                comboKategori.Items.Add($"{cat.Id} | {cat.Name}");
             }
         }
 
@@ -55,6 +66,7 @@ namespace WinFormsApp1
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
+            comboKategori.SelectedIndex = -1;
         }
 
         private void buttonTambah_Click(object sender, EventArgs e)
@@ -62,27 +74,26 @@ namespace WinFormsApp1
             string nama = textBox2.Text.Trim();
             string dayaText = textBox3.Text.Trim();
 
-            if (string.IsNullOrWhiteSpace(nama) || string.IsNullOrWhiteSpace(dayaText))
+            if (comboKategori.SelectedItem == null)
             {
-                MessageBox.Show("Nama dan daya harus diisi.");
+                MessageBox.Show("Pilih kategori terlebih dahulu.");
                 return;
             }
 
-            if (!int.TryParse(dayaText, out int daya))
+            if (!int.TryParse(dayaText, out int daya) || daya <= 0)
             {
-                MessageBox.Show("Daya harus berupa angka.");
+                MessageBox.Show("Daya harus berupa angka > 0.");
                 return;
             }
 
-            if (!Regex.IsMatch(nama, @"^[a-zA-Z\s]+$"))
-            {
-                MessageBox.Show("Nama perangkat hanya boleh mengandung huruf dan spasi.");
-                return;
-            }
+            // parsing "ID | Nama"
+            var parts = comboKategori.SelectedItem.ToString().Split('|', 2);
+            int katId = int.Parse(parts[0].Trim());
+            string katNm = parts[1].Trim();
 
             try
             {
-                var perangkat = PerangkatService.TambahPerangkat(nama, daya);
+                PerangkatService.TambahPerangkat(nama, daya, katId, katNm);   // ← gunakan ctor baru
                 RefreshListView();
                 ClearForm();
             }
@@ -94,40 +105,23 @@ namespace WinFormsApp1
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
-            {
-                MessageBox.Show("Pilih data yang akan diedit.");
-                return;
-            }
-
-            var idText = listView1.SelectedItems[0].SubItems[0].Text;
-            if (!int.TryParse(idText, out int id))
-                return;
+            if (listView1.SelectedItems.Count == 0) { MessageBox.Show("Pilih data."); return; }
+            if (!int.TryParse(listView1.SelectedItems[0].SubItems[0].Text, out int id)) return;
 
             string namaBaru = textBox2.Text.Trim();
-            string dayaText = textBox3.Text.Trim();
-
-            if (string.IsNullOrWhiteSpace(namaBaru) || string.IsNullOrWhiteSpace(dayaText))
+            if (!int.TryParse(textBox3.Text.Trim(), out int dayaBaru) || dayaBaru <= 0)
             {
-                MessageBox.Show("Nama dan daya harus diisi.");
-                return;
+                MessageBox.Show("Daya harus angka > 0."); return;
             }
 
-            if (!int.TryParse(dayaText, out int dayaBaru))
-            {
-                MessageBox.Show("Daya harus berupa angka.");
-                return;
-            }
-
-            if (!Regex.IsMatch(namaBaru, @"^[a-zA-Z\s]+$"))
-            {
-                MessageBox.Show("Nama perangkat hanya boleh mengandung huruf dan spasi.");
-                return;
-            }
+            if (comboKategori.SelectedItem == null) { MessageBox.Show("Pilih kategori."); return; }
+            var parts = comboKategori.SelectedItem.ToString().Split('|', 2);
+            int katId = int.Parse(parts[0].Trim());
+            string katNm = parts[1].Trim();
 
             try
             {
-                PerangkatService.EditPerangkat(id, namaBaru, dayaBaru);
+                PerangkatService.EditPerangkat(id, namaBaru, dayaBaru, katId, katNm);
                 RefreshListView();
                 ClearForm();
             }
@@ -162,6 +156,18 @@ namespace WinFormsApp1
                 textBox1.Text = item.SubItems[0].Text;
                 textBox2.Text = item.SubItems[1].Text;
                 textBox3.Text = item.SubItems[2].Text;
+
+                string kategori = item.SubItems[3].Text;
+
+                // Cari dan pilih kategori di combo box
+                for (int i = 0; i < comboKategori.Items.Count; i++)
+                {
+                    if (comboKategori.Items[i].ToString().EndsWith(kategori))
+                    {
+                        comboKategori.SelectedIndex = i;
+                        break;
+                    }
+                }
             }
         }
 
@@ -183,6 +189,11 @@ namespace WinFormsApp1
             HomePage homePage = new HomePage();
             homePage.Show();
             this.Close();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

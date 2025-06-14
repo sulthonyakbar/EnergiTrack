@@ -34,6 +34,7 @@
             buttonKonsumsi = new Button();
             buttonLaporan = new Button();
             buttonShutdown = new Button();
+            buttonKategori = new Button();
             SuspendLayout();
             // 
             // labelTitle
@@ -52,7 +53,7 @@
             buttonPerangkat.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonPerangkat.Location = new Point(183, 81);
             buttonPerangkat.Name = "buttonPerangkat";
-            buttonPerangkat.Size = new Size(103, 99);
+            buttonPerangkat.Size = new Size(103, 61);
             buttonPerangkat.TabIndex = 1;
             buttonPerangkat.Text = "Kelola Perangkat";
             buttonPerangkat.UseVisualStyleBackColor = true;
@@ -78,6 +79,7 @@
             buttonKonsumsi.TabIndex = 3;
             buttonKonsumsi.Text = "Hitung Biaya Konsumsi";
             buttonKonsumsi.UseVisualStyleBackColor = true;
+            buttonKonsumsi.Click += buttonKonsumsi_Click;
             // 
             // buttonLaporan
             // 
@@ -99,11 +101,23 @@
             buttonShutdown.UseVisualStyleBackColor = true;
             buttonShutdown.Click += button1_Click;
             // 
+            // buttonKategori
+            // 
+            buttonKategori.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonKategori.Location = new Point(183, 148);
+            buttonKategori.Name = "buttonKategori";
+            buttonKategori.Size = new Size(103, 32);
+            buttonKategori.TabIndex = 6;
+            buttonKategori.Text = "Kategori";
+            buttonKategori.UseVisualStyleBackColor = true;
+            buttonKategori.Click += buttonKategori_Click;
+            // 
             // HomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(584, 361);
+            Controls.Add(buttonKategori);
             Controls.Add(buttonShutdown);
             Controls.Add(buttonLaporan);
             Controls.Add(buttonKonsumsi);
@@ -124,5 +138,6 @@
         private Button buttonKonsumsi;
         private Button buttonLaporan;
         private Button buttonShutdown;
+        private Button buttonKategori;
     }
 }

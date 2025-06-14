@@ -12,8 +12,10 @@ namespace EnergiTrack.Service
         public int Id { get; set; }
         public string Nama { get; set; }
         public int Daya { get; set; }
+        public int KategoriId { get; set; }      
+        public string? KategoriNama { get; set; } 
 
-        public Perangkat(int id, string nama, int daya)
+        public Perangkat(int id, string nama, int daya, int kategoriId, string kategoriNama)
         {
             if (string.IsNullOrWhiteSpace(nama))
                 throw new ArgumentException("Nama tidak boleh kosong.");
@@ -23,6 +25,8 @@ namespace EnergiTrack.Service
             Id = id;
             Nama = nama;
             Daya = daya;
+            KategoriId = kategoriId;
+            KategoriNama = kategoriNama;
         }
 
     }
@@ -38,9 +42,9 @@ namespace EnergiTrack.Service
 
         private static int nextId = 1;
 
-        public static Perangkat TambahPerangkat(string nama, int daya)
+        public static Perangkat TambahPerangkat(string nama, int daya, int katId, string katNama        )
         {
-            var p = new Perangkat(nextId++, nama, daya);
+            var p = new Perangkat(nextId++, nama, daya, katId, katNama);
             daftarPerangkat.Add(p);
             Console.WriteLine($"Perangkat '{nama}' dengan daya {daya}W ditambahkan.");
             return p;
@@ -61,7 +65,7 @@ namespace EnergiTrack.Service
             }
         }
 
-        public static void EditPerangkat(int id, string namaBaru, int dayaBaru)
+        public static void EditPerangkat(int id, string namaBaru, int dayaBaru, int katId, string katNama)
         {
             var p = CariPerangkatById(id);
             if (p == null)
@@ -77,6 +81,9 @@ namespace EnergiTrack.Service
 
             p.Nama = namaBaru;
             p.Daya = dayaBaru;
+            p.KategoriId = katId;
+            p.KategoriNama = katNama;
+
             Console.WriteLine($"Perangkat ID {id} berhasil diperbarui.");
         }
 
