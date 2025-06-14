@@ -12,6 +12,7 @@
     <ProjectReference Include="..\EnergiTrack\EnergiTrack.csproj" />
   </ItemGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -27,4 +28,6 @@
     </EmbeddedResource>
   </ItemGroup>
 
+=======
+>>>>>>> origin/12101210022_yafiyoga
 </Project>
