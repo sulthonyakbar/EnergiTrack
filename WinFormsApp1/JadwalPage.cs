@@ -121,5 +121,12 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Close();
+        }
     }
 }

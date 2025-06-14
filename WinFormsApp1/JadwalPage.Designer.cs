@@ -46,6 +46,7 @@
             txtId = new TextBox();
             btnReset = new Button();
             comboHari = new ComboBox();
+            buttonBack = new Button();
             SuspendLayout();
             // 
             // label1
@@ -73,7 +74,7 @@
             // 
             comboAksi.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboAksi.FormattingEnabled = true;
-            comboAksi.Location = new Point(23, 182);
+            comboAksi.Location = new Point(23, 184);
             comboAksi.Name = "comboAksi";
             comboAksi.Size = new Size(80, 25);
             comboAksi.TabIndex = 4;
@@ -143,14 +144,14 @@
             listBoxJadwal.ItemHeight = 17;
             listBoxJadwal.Location = new Point(23, 229);
             listBoxJadwal.Name = "listBoxJadwal";
-            listBoxJadwal.Size = new Size(524, 106);
+            listBoxJadwal.Size = new Size(534, 106);
             listBoxJadwal.TabIndex = 12;
             // 
             // btnTambah
             // 
             btnTambah.BackColor = Color.Transparent;
             btnTambah.Font = new Font("Century Gothic", 9F);
-            btnTambah.Location = new Point(225, 182);
+            btnTambah.Location = new Point(234, 184);
             btnTambah.Name = "btnTambah";
             btnTambah.Size = new Size(75, 23);
             btnTambah.TabIndex = 13;
@@ -162,7 +163,7 @@
             // 
             btnEdit.BackColor = Color.Transparent;
             btnEdit.Font = new Font("Century Gothic", 9F);
-            btnEdit.Location = new Point(306, 182);
+            btnEdit.Location = new Point(320, 184);
             btnEdit.Name = "btnEdit";
             btnEdit.Size = new Size(75, 23);
             btnEdit.TabIndex = 14;
@@ -174,7 +175,7 @@
             // 
             btnHapus.BackColor = Color.Transparent;
             btnHapus.Font = new Font("Century Gothic", 9F);
-            btnHapus.Location = new Point(387, 182);
+            btnHapus.Location = new Point(401, 184);
             btnHapus.Name = "btnHapus";
             btnHapus.Size = new Size(75, 23);
             btnHapus.TabIndex = 15;
@@ -186,7 +187,7 @@
             // 
             btnUbahStatus.BackColor = Color.Transparent;
             btnUbahStatus.Font = new Font("Century Gothic", 9F);
-            btnUbahStatus.Location = new Point(109, 182);
+            btnUbahStatus.Location = new Point(109, 184);
             btnUbahStatus.Name = "btnUbahStatus";
             btnUbahStatus.Size = new Size(91, 23);
             btnUbahStatus.TabIndex = 16;
@@ -210,14 +211,14 @@
             txtId.Font = new Font("Century Gothic", 9F);
             txtId.Location = new Point(137, 68);
             txtId.Name = "txtId";
-            txtId.Size = new Size(46, 22);
+            txtId.Size = new Size(26, 22);
             txtId.TabIndex = 2;
             // 
             // btnReset
             // 
             btnReset.BackColor = Color.Transparent;
             btnReset.Font = new Font("Century Gothic", 9F);
-            btnReset.Location = new Point(468, 182);
+            btnReset.Location = new Point(482, 184);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(75, 23);
             btnReset.TabIndex = 17;
@@ -234,11 +235,22 @@
             comboHari.Size = new Size(121, 25);
             comboHari.TabIndex = 18;
             // 
+            // buttonBack
+            // 
+            buttonBack.Location = new Point(23, 12);
+            buttonBack.Name = "buttonBack";
+            buttonBack.Size = new Size(43, 23);
+            buttonBack.TabIndex = 19;
+            buttonBack.Text = "Back";
+            buttonBack.UseVisualStyleBackColor = true;
+            buttonBack.Click += buttonBack_Click;
+            // 
             // JadwalPage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(577, 357);
+            ClientSize = new Size(584, 361);
+            Controls.Add(buttonBack);
             Controls.Add(comboHari);
             Controls.Add(btnReset);
             Controls.Add(btnUbahStatus);
@@ -283,5 +295,6 @@
         private TextBox txtId;
         private Button btnReset;
         private ComboBox comboHari;
+        private Button buttonBack;
     }
 }
