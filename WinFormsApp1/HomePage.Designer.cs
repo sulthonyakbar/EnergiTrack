@@ -33,6 +33,7 @@
             buttonJadwal = new Button();
             buttonKonsumsi = new Button();
             buttonLaporan = new Button();
+            buttonShutdown = new Button();
             SuspendLayout();
             // 
             // labelTitle
@@ -88,11 +89,22 @@
             buttonLaporan.Text = "Laporan";
             buttonLaporan.UseVisualStyleBackColor = true;
             // 
+            // buttonShutdown
+            // 
+            buttonShutdown.Location = new Point(497, 12);
+            buttonShutdown.Name = "buttonShutdown";
+            buttonShutdown.Size = new Size(75, 23);
+            buttonShutdown.TabIndex = 5;
+            buttonShutdown.Text = "Shutdown";
+            buttonShutdown.UseVisualStyleBackColor = true;
+            buttonShutdown.Click += button1_Click;
+            // 
             // HomePage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(584, 361);
+            Controls.Add(buttonShutdown);
             Controls.Add(buttonLaporan);
             Controls.Add(buttonKonsumsi);
             Controls.Add(buttonJadwal);
@@ -111,5 +123,6 @@
         private Button buttonJadwal;
         private Button buttonKonsumsi;
         private Button buttonLaporan;
+        private Button buttonShutdown;
     }
 }

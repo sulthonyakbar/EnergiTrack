@@ -24,7 +24,9 @@ namespace WinFormsApp1
 
         private void buttonPerangkat_Click(object sender, EventArgs e)
         {
-
+            Form1 perangkatPage = new Form1();
+            perangkatPage.Show();
+            this.Hide();
         }
 
         private void buttonJadwal_Click(object sender, EventArgs e)
@@ -32,6 +34,11 @@ namespace WinFormsApp1
             JadwalPage jadwalPage = new JadwalPage();
             jadwalPage.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

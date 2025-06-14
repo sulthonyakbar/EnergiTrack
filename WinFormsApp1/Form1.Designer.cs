@@ -27,91 +27,128 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            buttonBack = new Button();
+            label4 = new Label();
             SuspendLayout();
-
-            // label1 - Nama Perangkat
+            // 
+            // label1
+            // 
             label1.AutoSize = true;
-            label1.Location = new Point(39, 94);
+            label1.Location = new Point(39, 98);
             label1.Name = "label1";
-            label1.Size = new Size(118, 20);
+            label1.Size = new Size(95, 15);
             label1.TabIndex = 0;
             label1.Text = "Nama Perangkat";
-
-            // label2 - ID
+            // 
+            // label2
+            // 
             label2.AutoSize = true;
-            label2.Location = new Point(133, 63);
+            label2.Location = new Point(116, 63);
             label2.Name = "label2";
-            label2.Size = new Size(24, 20);
+            label2.Size = new Size(18, 15);
             label2.TabIndex = 1;
             label2.Text = "ID";
-
-            // label3 - Daya Perangkat
+            // 
+            // label3
+            // 
             label3.AutoSize = true;
-            label3.Location = new Point(45, 127);
+            label3.Location = new Point(306, 98);
             label3.Name = "label3";
-            label3.Size = new Size(112, 20);
+            label3.Size = new Size(89, 15);
             label3.TabIndex = 2;
             label3.Text = "Daya Perangkat";
-
-            // textBox1 - ID
-            textBox1.Location = new Point(191, 60);
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(145, 60);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
+            textBox1.Size = new Size(32, 23);
             textBox1.TabIndex = 3;
-
-            // textBox2 - Nama Perangkat
-            textBox2.Location = new Point(191, 94);
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(145, 93);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
+            textBox2.Size = new Size(110, 23);
             textBox2.TabIndex = 4;
-
-            // textBox3 - Daya Perangkat
-            textBox3.Location = new Point(191, 127);
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(413, 98);
+            textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
+            textBox3.Size = new Size(110, 23);
             textBox3.TabIndex = 5;
-
+            // 
             // listView1
-            listView1.Location = new Point(58, 185);
+            // 
+            listView1.Location = new Point(34, 136);
+            listView1.Margin = new Padding(3, 2, 3, 2);
             listView1.Name = "listView1";
-            listView1.Size = new Size(714, 147);
+            listView1.Size = new Size(489, 111);
             listView1.TabIndex = 6;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.View = View.Details;
-
-            // Kolom ListView
-            listView1.Columns.Add("ID", 100, HorizontalAlignment.Left);
-            listView1.Columns.Add("Nama Perangkat", 250, HorizontalAlignment.Left);
-            listView1.Columns.Add("Daya Perangkat", 150, HorizontalAlignment.Left);
-
-            // button2 - Tambah
-            button2.Location = new Point(80, 348);
+            // 
+            // button2
+            // 
+            button2.Location = new Point(34, 261);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(150, 29);
+            button2.Size = new Size(131, 22);
             button2.TabIndex = 11;
             button2.Text = "Tambah";
             button2.UseVisualStyleBackColor = true;
-
-            // button3 - Edit
-            button3.Location = new Point(298, 348);
+            // 
+            // button3
+            // 
+            button3.Location = new Point(219, 261);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(150, 29);
+            button3.Size = new Size(131, 22);
             button3.TabIndex = 12;
             button3.Text = "Edit";
             button3.UseVisualStyleBackColor = true;
-
-            // button4 - Hapus
-            button4.Location = new Point(532, 348);
+            // 
+            // button4
+            // 
+            button4.Location = new Point(392, 261);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(150, 29);
+            button4.Size = new Size(131, 22);
             button4.TabIndex = 13;
             button4.Text = "Hapus";
             button4.UseVisualStyleBackColor = true;
-
+            // 
+            // buttonBack
+            // 
+            buttonBack.Location = new Point(12, 12);
+            buttonBack.Name = "buttonBack";
+            buttonBack.Size = new Size(47, 23);
+            buttonBack.TabIndex = 14;
+            buttonBack.Text = "Back";
+            buttonBack.UseVisualStyleBackColor = true;
+            buttonBack.Click += buttonBack_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(193, 12);
+            label4.Name = "label4";
+            label4.Size = new Size(229, 25);
+            label4.TabIndex = 15;
+            label4.Text = "Data Perangkat Saya";
+            // 
             // Form1
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(584, 361);
+            Controls.Add(label4);
+            Controls.Add(buttonBack);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -122,6 +159,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form Perangkat";
             ResumeLayout(false);
@@ -140,5 +178,7 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button buttonBack;
+        private Label label4;
     }
 }
