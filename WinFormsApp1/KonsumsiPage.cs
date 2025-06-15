@@ -88,45 +88,53 @@ namespace WinFormsApp1
             }
         }
 
-        private void btnCalculate_Click(object sender, EventArgs e)
-        {
-            if (comboPerangkat.SelectedItem == null)
+            private void btnCalculate_Click(object sender, EventArgs e)
             {
-                MessageBox.Show("Pilih perangkat dulu.");
-                return;
-            }
+                if (comboPerangkat.SelectedItem == null)
+                {
+                    MessageBox.Show("Pilih perangkat dulu.");
+                    return;
+                }
 
-            // Parsing "ID | Nama | DayaW"
-            var parts = comboPerangkat.SelectedItem.ToString().Split('|', 3);
-            string nama = parts[1].Trim();
-            int daya = int.Parse(Regex.Match(parts[2], @"\d+").Value); // ambil angka watt
+                // Parsing "ID | Nama | DayaW"
+                var parts = comboPerangkat.SelectedItem.ToString().Split('|', 3);
+                string nama = parts[1].Trim();
+                int daya = int.Parse(Regex.Match(parts[2], @"\d+").Value); // ambil angka watt
 
-            var device = new Device
-            {
-                Name = nama,
-                PowerInWatts = daya
-            };
+                var device = new Device
+                {
+                    Name = nama,
+                    PowerInWatts = daya
+                };
 
-            // Ambil jadwal dari JadwalService
-            var semuaJadwal = JadwalService.GetDaftar()
-                .Cast<DeviceSchedule>()
-                .ToList();
-            var jadwal = semuaJadwal.FirstOrDefault(j => j.DeviceName == nama);
+            var jadwal = JadwalService.GetDaftar()
+               .FirstOrDefault(j => j.NamaPerangkat.Trim()
+                              .Equals(nama, StringComparison.OrdinalIgnoreCase));
 
             if (jadwal == null)
+                {
+                    MessageBox.Show("Jadwal untuk perangkat ini belum tersedia.");
+                    return;
+                }
+
+            var schedule = new DeviceSchedule
             {
-                MessageBox.Show("Jadwal untuk perangkat ini belum tersedia.");
-                return;
-            }
+                DeviceName = jadwal.NamaPerangkat,
+                StartTime = DateTime.Today.Add(jadwal.JamMulai),
+                EndTime = DateTime.Today.Add(jadwal.JamSelesai)
+            };
+
+            if (schedule.EndTime <= schedule.StartTime)
+                schedule.EndTime = schedule.EndTime.AddDays(1);
 
             try
             {
-                manager.AddConsumption(device, jadwal);
+                manager.AddConsumption(device, schedule);  
                 RefreshDataGrid();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Gagal menyimpan: " + ex.Message);
+
             }
         }
 
@@ -147,7 +155,7 @@ namespace WinFormsApp1
 
             if (parts.Length >= 3)
             {
-                string daya = parts[2].Trim(); // "600W"
+                string daya = parts[2].Trim();
                 labelDaya.Text = $"Daya: {daya}";
             }
         }

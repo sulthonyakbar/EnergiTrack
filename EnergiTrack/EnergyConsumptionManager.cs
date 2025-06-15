@@ -10,6 +10,7 @@ namespace EnergiTrack
     {
         public string DeviceName { get; set; }
         public double Consumption { get; set; }
+        public double Cost { get; set; }
         public string Status { get; set; }
     }
 
@@ -101,7 +102,6 @@ namespace EnergiTrack
                 
             }
         }
-
         private void SaveConsumptions()
         {
             try
@@ -129,24 +129,9 @@ namespace EnergiTrack
             {
                 DeviceName = device.Name,
                 Consumption = consumption,
+                Cost = totalCost,
                 Status = status.ToString()
             });
-
-            SaveConsumptions();
-        }
-
-        public void EditConsumption(string deviceName, double newConsumption)
-        {
-            ValidateInput(deviceName, newConsumption);
-
-            var consumption = _consumptions.Find(c => c.DeviceName == deviceName);
-            if (consumption == null) return;
-
-            var totalCost = newConsumption * _pricePerKWh;
-            var status = _automata.Evaluate(totalCost);
-
-            consumption.Consumption = newConsumption;
-            consumption.Status = status.ToString();
 
             SaveConsumptions();
         }
