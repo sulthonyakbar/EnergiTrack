@@ -32,7 +32,6 @@
             buttonPerangkat = new Button();
             buttonJadwal = new Button();
             buttonKonsumsi = new Button();
-            buttonLaporan = new Button();
             buttonShutdown = new Button();
             buttonKategori = new Button();
             SuspendLayout();
@@ -53,7 +52,7 @@
             buttonPerangkat.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonPerangkat.Location = new Point(183, 81);
             buttonPerangkat.Name = "buttonPerangkat";
-            buttonPerangkat.Size = new Size(103, 61);
+            buttonPerangkat.Size = new Size(103, 100);
             buttonPerangkat.TabIndex = 1;
             buttonPerangkat.Text = "Kelola Perangkat";
             buttonPerangkat.UseVisualStyleBackColor = true;
@@ -62,9 +61,9 @@
             // buttonJadwal
             // 
             buttonJadwal.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            buttonJadwal.Location = new Point(315, 81);
+            buttonJadwal.Location = new Point(318, 199);
             buttonJadwal.Name = "buttonJadwal";
-            buttonJadwal.Size = new Size(103, 99);
+            buttonJadwal.Size = new Size(103, 100);
             buttonJadwal.TabIndex = 2;
             buttonJadwal.Text = "Kelola Jadwal Pemakaian";
             buttonJadwal.UseVisualStyleBackColor = true;
@@ -75,21 +74,11 @@
             buttonKonsumsi.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonKonsumsi.Location = new Point(183, 199);
             buttonKonsumsi.Name = "buttonKonsumsi";
-            buttonKonsumsi.Size = new Size(103, 99);
+            buttonKonsumsi.Size = new Size(100, 100);
             buttonKonsumsi.TabIndex = 3;
             buttonKonsumsi.Text = "Hitung Biaya Konsumsi";
             buttonKonsumsi.UseVisualStyleBackColor = true;
             buttonKonsumsi.Click += buttonKonsumsi_Click;
-            // 
-            // buttonLaporan
-            // 
-            buttonLaporan.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            buttonLaporan.Location = new Point(315, 199);
-            buttonLaporan.Name = "buttonLaporan";
-            buttonLaporan.Size = new Size(103, 99);
-            buttonLaporan.TabIndex = 4;
-            buttonLaporan.Text = "Laporan";
-            buttonLaporan.UseVisualStyleBackColor = true;
             // 
             // buttonShutdown
             // 
@@ -104,9 +93,9 @@
             // buttonKategori
             // 
             buttonKategori.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            buttonKategori.Location = new Point(183, 148);
+            buttonKategori.Location = new Point(318, 81);
             buttonKategori.Name = "buttonKategori";
-            buttonKategori.Size = new Size(103, 32);
+            buttonKategori.Size = new Size(103, 100);
             buttonKategori.TabIndex = 6;
             buttonKategori.Text = "Kategori";
             buttonKategori.UseVisualStyleBackColor = true;
@@ -119,7 +108,6 @@
             ClientSize = new Size(584, 361);
             Controls.Add(buttonKategori);
             Controls.Add(buttonShutdown);
-            Controls.Add(buttonLaporan);
             Controls.Add(buttonKonsumsi);
             Controls.Add(buttonJadwal);
             Controls.Add(buttonPerangkat);
@@ -136,7 +124,6 @@
         private Button buttonPerangkat;
         private Button buttonJadwal;
         private Button buttonKonsumsi;
-        private Button buttonLaporan;
         private Button buttonShutdown;
         private Button buttonKategori;
     }

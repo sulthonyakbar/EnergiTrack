@@ -147,7 +147,7 @@ namespace WinFormsApp1
 
             if (parts.Length >= 3)
             {
-                string daya = parts[2].Trim(); 
+                string daya = parts[2].Trim(); // "600W"
                 labelDaya.Text = $"Daya: {daya}";
             }
         }

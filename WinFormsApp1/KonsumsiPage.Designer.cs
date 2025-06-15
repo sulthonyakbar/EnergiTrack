@@ -107,11 +107,10 @@
             // labelDaya
             // 
             labelDaya.AutoSize = true;
-            labelDaya.Location = new Point(282, 81);
+            labelDaya.Location = new Point(285, 82);
             labelDaya.Name = "labelDaya";
-            labelDaya.Size = new Size(38, 15);
+            labelDaya.Size = new Size(0, 15);
             labelDaya.TabIndex = 9;
-            labelDaya.Text = "label2";
             // 
             // KonsumsiPage
             // 
