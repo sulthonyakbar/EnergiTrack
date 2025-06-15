@@ -173,5 +173,17 @@ namespace EnergiTrack
             if (consumption < 0)
                 throw new ArgumentException("Konsumsi tidak boleh negatif.");
         }
+
+        public void UpdatePricePerKWh(double newPrice)
+        {
+            _pricePerKWh = newPrice;
+            SaveConfig();
+        }
+
+        public double GetPricePerKWh()
+        {
+            return _pricePerKWh;
+        }
+
     }
 }

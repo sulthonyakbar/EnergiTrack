@@ -1,16 +1,11 @@
 ﻿using EnergiTrack;
-using EnergiTrack.Service;
 using EnergiTrack.Model;
+using EnergiTrack.Service;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
@@ -21,14 +16,7 @@ namespace WinFormsApp1
         private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
 
         private EnergyConsumptionManager manager;
-        private void LoadPerangkat()
-        {
-            comboPerangkat.Items.Clear();
-            foreach (var p in PerangkatService.GetDaftar())
-            {
-                comboPerangkat.Items.Add($"{p.Id} | {p.Nama} | {p.Daya}W");
-            }
-        }
+
         public KonsumsiPage()
         {
             InitializeComponent();
@@ -36,7 +24,9 @@ namespace WinFormsApp1
             ApplyTheme();
             LoadPerangkat();
             RefreshDataGrid();
+            txtPricePerKWh.Text = manager.GetPricePerKWh().ToString("0.00");
         }
+
         private void ApplyTheme()
         {
             this.BackColor = Color.White;
@@ -65,6 +55,15 @@ namespace WinFormsApp1
             labelTitle.Font = new Font("Segoe UI Black", 18, FontStyle.Bold);
         }
 
+        private void LoadPerangkat()
+        {
+            comboPerangkat.Items.Clear();
+            foreach (var p in PerangkatService.GetDaftar())
+            {
+                comboPerangkat.Items.Add($"{p.Id} | {p.Nama} | {p.Daya}W");
+            }
+        }
+
         private void RefreshDataGrid()
         {
             dataGridView1.DataSource = null;
@@ -88,34 +87,33 @@ namespace WinFormsApp1
             }
         }
 
-            private void btnCalculate_Click(object sender, EventArgs e)
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            if (comboPerangkat.SelectedItem == null)
             {
-                if (comboPerangkat.SelectedItem == null)
-                {
-                    MessageBox.Show("Pilih perangkat dulu.");
-                    return;
-                }
+                MessageBox.Show("Pilih perangkat dulu.");
+                return;
+            }
 
-                // Parsing "ID | Nama | DayaW"
-                var parts = comboPerangkat.SelectedItem.ToString().Split('|', 3);
-                string nama = parts[1].Trim();
-                int daya = int.Parse(Regex.Match(parts[2], @"\d+").Value); // ambil angka watt
+            var parts = comboPerangkat.SelectedItem.ToString().Split('|', 3);
+            string nama = parts[1].Trim();
+            int daya = int.Parse(Regex.Match(parts[2], @"\d+").Value);
 
-                var device = new Device
-                {
-                    Name = nama,
-                    PowerInWatts = daya
-                };
+            var device = new Device
+            {
+                Name = nama,
+                PowerInWatts = daya
+            };
 
             var jadwal = JadwalService.GetDaftar()
-               .FirstOrDefault(j => j.NamaPerangkat.Trim()
-                              .Equals(nama, StringComparison.OrdinalIgnoreCase));
+                .FirstOrDefault(j => j.NamaPerangkat.Trim()
+                    .Equals(nama, StringComparison.OrdinalIgnoreCase));
 
             if (jadwal == null)
-                {
-                    MessageBox.Show("Jadwal untuk perangkat ini belum tersedia.");
-                    return;
-                }
+            {
+                MessageBox.Show("Jadwal untuk perangkat ini belum tersedia.");
+                return;
+            }
 
             var schedule = new DeviceSchedule
             {
@@ -129,12 +127,25 @@ namespace WinFormsApp1
 
             try
             {
-                manager.AddConsumption(device, schedule);  
+                manager.AddConsumption(device, schedule);
                 RefreshDataGrid();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
+                MessageBox.Show("Terjadi kesalahan saat menambahkan konsumsi.");
+            }
+        }
 
+        private void btnSaveConfig_Click(object sender, EventArgs e)
+        {
+            if (double.TryParse(txtPricePerKWh.Text, out double newPrice))
+            {
+                manager.UpdatePricePerKWh(newPrice);
+                MessageBox.Show("Harga per kWh berhasil diperbarui.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Masukkan harga per kWh yang valid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -145,19 +156,12 @@ namespace WinFormsApp1
             this.Close();
         }
 
+        private void KonsumsiPage_Load(object sender, EventArgs e)
+        {
+        }
+
         private void comboPerangkat_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboPerangkat.SelectedItem == null)
-                return;
-
-            var selected = comboPerangkat.SelectedItem.ToString(); 
-            var parts = selected.Split('|');
-
-            if (parts.Length >= 3)
-            {
-                string daya = parts[2].Trim();
-                labelDaya.Text = $"Daya: {daya}";
-            }
         }
     }
 }
