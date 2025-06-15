@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using EnergiTrack.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -114,16 +115,19 @@ namespace EnergiTrack
             }
         }
 
-        public void AddConsumption(string deviceName, double consumption)
+        public void AddConsumption(Device device, DeviceSchedule schedule)
         {
-            ValidateInput(deviceName, consumption);
+            double durationHours = (schedule.EndTime - schedule.StartTime).TotalHours;
+            double consumption = (device.PowerInWatts / 1000.0) * durationHours;
+
+            ValidateInput(device.Name, consumption);
 
             var totalCost = consumption * _pricePerKWh;
             var status = _automata.Evaluate(totalCost);
 
             _consumptions.Add(new EnergyConsumption
             {
-                DeviceName = deviceName,
+                DeviceName = device.Name,
                 Consumption = consumption,
                 Status = status.ToString()
             });

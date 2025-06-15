@@ -1,4 +1,6 @@
 ﻿using EnergiTrack;
+using EnergiTrack.Service;
+using EnergiTrack.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,6 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,12 +21,20 @@ namespace WinFormsApp1
         private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
 
         private EnergyConsumptionManager manager;
-
+        private void LoadPerangkat()
+        {
+            comboPerangkat.Items.Clear();
+            foreach (var p in PerangkatService.GetDaftar())
+            {
+                comboPerangkat.Items.Add($"{p.Id} | {p.Nama} | {p.Daya}W");
+            }
+        }
         public KonsumsiPage()
         {
             InitializeComponent();
             manager = new EnergyConsumptionManager();
             ApplyTheme();
+            LoadPerangkat();
             RefreshDataGrid();
         }
         private void ApplyTheme()
@@ -60,64 +71,6 @@ namespace WinFormsApp1
             dataGridView1.DataSource = manager.GetAllConsumptions();
         }
 
-        private void BtnAdd_Click(object sender, EventArgs e)
-        {
-            var addForm = new AddEditForm();
-            if (addForm.ShowDialog() == DialogResult.OK)
-            {
-                try
-                {
-                    manager.AddConsumption(addForm.DeviceName, addForm.Consumption);
-                    RefreshDataGrid();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message, "Tambah Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            var addForm = new AddEditForm();
-            if (addForm.ShowDialog() == DialogResult.OK)
-            {
-                try
-                {
-                    manager.AddConsumption(addForm.DeviceName, addForm.Consumption);
-                    RefreshDataGrid();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message, "Tambah Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
-        private void btnEdit_Click(object sender, EventArgs e)
-        {
-            if (dataGridView1.CurrentRow == null)
-            {
-                MessageBox.Show("Pilih data yang ingin diedit.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
-            }
-
-            var selected = (EnergyConsumption)dataGridView1.CurrentRow.DataBoundItem;
-            var editForm = new AddEditForm(selected.DeviceName, selected.Consumption, true);
-            if (editForm.ShowDialog() == DialogResult.OK)
-            {
-                try
-                {
-                    manager.EditConsumption(selected.DeviceName, editForm.Consumption);
-                    RefreshDataGrid();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message, "Edit Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
         private void btnRemove_Click(object sender, EventArgs e)
         {
             if (dataGridView1.CurrentRow == null)
@@ -137,8 +90,44 @@ namespace WinFormsApp1
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            double totalCost = manager.CalculateTotalCost();
-            MessageBox.Show($"Total biaya energi: Rp {totalCost:N2}", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (comboPerangkat.SelectedItem == null)
+            {
+                MessageBox.Show("Pilih perangkat dulu.");
+                return;
+            }
+
+            // Parsing "ID | Nama | DayaW"
+            var parts = comboPerangkat.SelectedItem.ToString().Split('|', 3);
+            string nama = parts[1].Trim();
+            int daya = int.Parse(Regex.Match(parts[2], @"\d+").Value); // ambil angka watt
+
+            var device = new Device
+            {
+                Name = nama,
+                PowerInWatts = daya
+            };
+
+            // Ambil jadwal dari JadwalService
+            var semuaJadwal = JadwalService.GetDaftar()
+                .Cast<DeviceSchedule>()
+                .ToList();
+            var jadwal = semuaJadwal.FirstOrDefault(j => j.DeviceName == nama);
+
+            if (jadwal == null)
+            {
+                MessageBox.Show("Jadwal untuk perangkat ini belum tersedia.");
+                return;
+            }
+
+            try
+            {
+                manager.AddConsumption(device, jadwal);
+                RefreshDataGrid();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Gagal menyimpan: " + ex.Message);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -146,6 +135,21 @@ namespace WinFormsApp1
             HomePage homePage = new HomePage();
             homePage.Show();
             this.Close();
+        }
+
+        private void comboPerangkat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboPerangkat.SelectedItem == null)
+                return;
+
+            var selected = comboPerangkat.SelectedItem.ToString(); 
+            var parts = selected.Split('|');
+
+            if (parts.Length >= 3)
+            {
+                string daya = parts[2].Trim(); 
+                labelDaya.Text = $"Daya: {daya}";
+            }
         }
     }
 }

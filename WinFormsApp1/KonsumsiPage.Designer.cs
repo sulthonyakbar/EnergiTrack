@@ -29,45 +29,28 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            btnAdd = new Button();
-            btnEdit = new Button();
             btnRemove = new Button();
             btnCalculate = new Button();
             labelTitle = new Label();
             button1 = new Button();
+            comboPerangkat = new ComboBox();
+            label1 = new Label();
+            labelDaya = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.Location = new Point(20, 60);
+            dataGridView1.Location = new Point(20, 126);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(398, 272);
+            dataGridView1.Size = new Size(398, 206);
             dataGridView1.TabIndex = 0;
-            // 
-            // btnAdd
-            // 
-            btnAdd.Location = new Point(435, 83);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(120, 35);
-            btnAdd.TabIndex = 1;
-            btnAdd.Text = "Tambah";
-            btnAdd.Click += btnAdd_Click;
-            // 
-            // btnEdit
-            // 
-            btnEdit.Location = new Point(435, 139);
-            btnEdit.Name = "btnEdit";
-            btnEdit.Size = new Size(120, 35);
-            btnEdit.TabIndex = 2;
-            btnEdit.Text = "Edit";
-            btnEdit.Click += btnEdit_Click;
             // 
             // btnRemove
             // 
-            btnRemove.Location = new Point(435, 197);
+            btnRemove.Location = new Point(435, 126);
             btnRemove.Name = "btnRemove";
             btnRemove.Size = new Size(120, 35);
             btnRemove.TabIndex = 3;
@@ -76,7 +59,7 @@
             // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(435, 258);
+            btnCalculate.Location = new Point(435, 177);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(120, 35);
             btnCalculate.TabIndex = 4;
@@ -103,13 +86,41 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // comboPerangkat
+            // 
+            comboPerangkat.FormattingEnabled = true;
+            comboPerangkat.Location = new Point(146, 78);
+            comboPerangkat.Name = "comboPerangkat";
+            comboPerangkat.Size = new Size(121, 23);
+            comboPerangkat.TabIndex = 7;
+            comboPerangkat.SelectedIndexChanged += comboPerangkat_SelectedIndexChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(30, 81);
+            label1.Name = "label1";
+            label1.Size = new Size(95, 15);
+            label1.TabIndex = 8;
+            label1.Text = "Nama Perangkat";
+            // 
+            // labelDaya
+            // 
+            labelDaya.AutoSize = true;
+            labelDaya.Location = new Point(282, 81);
+            labelDaya.Name = "labelDaya";
+            labelDaya.Size = new Size(38, 15);
+            labelDaya.TabIndex = 9;
+            labelDaya.Text = "label2";
+            // 
             // KonsumsiPage
             // 
             ClientSize = new Size(584, 361);
+            Controls.Add(labelDaya);
+            Controls.Add(label1);
+            Controls.Add(comboPerangkat);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
-            Controls.Add(btnAdd);
-            Controls.Add(btnEdit);
             Controls.Add(btnRemove);
             Controls.Add(btnCalculate);
             Controls.Add(labelTitle);
@@ -123,11 +134,12 @@
         #endregion
 
         private DataGridView dataGridView1;
-        private Button btnAdd;
-        private Button btnEdit;
         private Button btnRemove;
         private Button btnCalculate;
         private Label labelTitle;
         private Button button1;
+        private ComboBox comboPerangkat;
+        private Label label1;
+        private Label labelDaya;
     }
 }

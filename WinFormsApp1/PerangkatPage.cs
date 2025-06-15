@@ -93,7 +93,7 @@ namespace WinFormsApp1
 
             try
             {
-                PerangkatService.TambahPerangkat(nama, daya, katId, katNm);   // ← gunakan ctor baru
+                PerangkatService.TambahPerangkat(nama, daya, katId, katNm);  
                 RefreshListView();
                 ClearForm();
             }

@@ -1,4 +1,5 @@
 ﻿using EnergiTrack.Domain;
+using EnergiTrack.Service;
 using EnergiTrack.Services;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace WinFormsApp1
 {
     public partial class KategoriPage : Form
     {
-        private CrudService<Category> categoryService = new();
+        private CrudService<Category> categoryService = KategoriStore.CategoryStore;
         public KategoriPage()
         {
             InitializeComponent();
